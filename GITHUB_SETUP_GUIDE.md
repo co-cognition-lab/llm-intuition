@@ -41,12 +41,12 @@
 
 | 候选名 | 配套域名示例 | 风格 |
 |--------|------------|------|
-| `co-intelligence-lab` | co-intelligence.org | 精准、学术感 |
+| `co-cognition-lab` | co-cognition.org | 精准、学术感 |
 | `symbiotic-mind` | symbiotic-mind.org | 哲学深度 |
 | `cognitive-frontier` | cognitive-frontier.org | 探索感 |
 | `co-cognition-lab` | co-cognition.org | 简洁学术 |
 
-**我的推荐**：`co-intelligence-lab`（如果域名选 co-intelligence.org）——组织和域名一致，branding 最干净。
+**我的推荐**：`co-cognition-lab`（与域名 co-cognition.org 一致）——组织和域名一致，branding 最干净。也是最终选定名。
 
 ### 步骤 3：创建仓库
 
@@ -74,7 +74,7 @@
 
 **方式 B：用 Git 命令行**（后续更新更方便）
 ```bash
-git clone https://github.com/你的组织名/llm-intuition.git
+git clone https://github.com/co-cognition-lab/llm-intuition.git
 cd llm-intuition
 # 复制项目文件到仓库目录
 cp -r D:/文档/LobsterProject/LiteratureHistoryPhilosophy/llm-intuition-exploration/* .
