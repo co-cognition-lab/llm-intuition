@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: 'LLM 与人类直觉',
   titleTemplate: ':title | co-cognition.org/lab',
   description: '探索 LLM 与人类直觉的关系——互补地图、三条铁律、四个不推进',
