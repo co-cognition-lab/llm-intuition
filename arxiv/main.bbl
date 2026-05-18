@@ -1,0 +1,112 @@
+\begin{thebibliography}{10}
+
+\bibitem{chase1973perception}
+William~G Chase and Herbert~A Simon.
+\newblock Perception in chess.
+\newblock {\em Cognitive Psychology}, 4(1):55--81, 1973.
+
+\bibitem{eyetrackingchess}
+Eyal~M Reingold and Neil Charness.
+\newblock Expert-novice differences in eye movement patterns during chess.
+\newblock {\em PMC4142462}, 2014.
+\newblock See also: Chase \& Simon (1973) for chunking theory.
+
+\bibitem{gsa2025}
+{DeepSeek-AI}.
+\newblock Generative sparse attention: Compress first, then selectively expand.
+\newblock {\em arXiv:2604.20920}, 2025.
+
+\bibitem{maia2004reexamination}
+Tiago~V Maia and James~L McClelland.
+\newblock A reexamination of the evidence for the somatic marker hypothesis:
+  What participants really know in the iowa gambling task.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  101(45):16075--16080, 2004.
+
+\bibitem{seth2016active}
+Anil~K Seth and Karl~J Friston.
+\newblock Active interoceptive inference and the emotional brain.
+\newblock {\em Philosophical Transactions of the Royal Society B},
+  371(1708):20160007, 2016.
+
+\bibitem{friston2010free}
+Karl Friston.
+\newblock The free-energy principle: A unified brain theory?
+\newblock {\em Nature Reviews Neuroscience}, 11(2):127--138, 2010.
+
+\bibitem{parr2022active}
+Thomas Parr, Giovanni Pezzulo, and Karl~J Friston.
+\newblock {\em Active Inference: The Free Energy Principle in Mind, Brain, and
+  Behavior}.
+\newblock MIT Press, 2022.
+
+\bibitem{haidt2001emotional}
+Jonathan Haidt.
+\newblock The emotional dog and its rational tail: A social intuitionist
+  approach to moral judgment.
+\newblock {\em Psychological Review}, 108(4):814--834, 2001.
+
+\bibitem{alphaproof2024}
+DeepMind.
+\newblock Alphaproof: Silver medal at imo, 2024.
+
+\bibitem{sjt2024}
+{Multiple Research Groups}.
+\newblock Llms surpass humans on situational judgment tests.
+\newblock {\em Nature Scientific Reports}, 2024.
+
+\bibitem{bainbridge1983ironies}
+Lisanne Bainbridge.
+\newblock Ironies of automation.
+\newblock {\em Automatica}, 19(6):775--779, 1983.
+
+\bibitem{vallor2015moral}
+Shannon Vallor.
+\newblock Moral deskilling and upskilling in a new machine age.
+\newblock {\em Philosophy \& Technology}, 28:107--124, 2015.
+
+\bibitem{zhongjing2024}
+{中国经济网}.
+\newblock 线下社交能力退化调查.
+\newblock {\em 中经网}, 2024.
+\newblock 68\% 受访者自感线下社交能力退化.
+
+\bibitem{uhls2014five}
+Yalda~T Uhls, Minas Michikyan, Jordan Morris, Debra Garcia, Gary~W Small, Eleni
+  Zgourou, and Patricia~M Greenfield.
+\newblock Five days at outdoor education camp without screens improves preteen
+  skills with nonverbal emotion cues.
+\newblock {\em Computers in Human Behavior}, 39:387--392, 2014.
+
+\bibitem{jama2023}
+{JAMA Network}.
+\newblock Decline in radiology resident independent diagnostic accuracy.
+\newblock {\em Journal of the American Medical Association}, 2023.
+
+\bibitem{jennings2025moral}
+Andrew Jennings and Micah Lott.
+\newblock Moral outsourcing and the destruction of agency.
+\newblock {\em Philosophy \& Technology}, 2025.
+
+\bibitem{oncology2024}
+{European Society of Radiology}.
+\newblock Upskilling effect of on-demand ai in radiology.
+\newblock {\em Insights into Imaging}, 2024.
+
+\bibitem{automationbias}
+{Systematic Review Consortium}.
+\newblock Automation bias: A systematic review of 35 studies.
+\newblock {\em Human Factors}, 2024.
+
+\bibitem{bucinca2021cognitive}
+Zana Bu{\c{c}}inca et~al.
+\newblock Cognitive forcing functions reduce over-reliance on ai.
+\newblock In {\em Proceedings of the CHI Conference on Human Factors in
+  Computing Systems}, 2021.
+
+\bibitem{kobis2025moral}
+Nils K{\"o}bis and Iyad Rahwan.
+\newblock Moral outsourcing to ai increases cheating.
+\newblock {\em Nature}, 2025.
+
+\end{thebibliography}

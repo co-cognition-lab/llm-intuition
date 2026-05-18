@@ -1,0 +1,30 @@
+\contentsline {section}{\numberline {1}引言}{3}{section.1}%
+\contentsline {section}{\numberline {2}核心理论框架}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}三个核心命题}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}命题一:代价敏感的压缩}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}命题二:选择性忽略}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}命题三:不可回避性--代价信号的送达保证}{4}{subsubsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.2}统一形式化:精度加权的内生性}{4}{subsection.2.2}%
+\contentsline {section}{\numberline {3}直觉子类型的系统映射}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}为什么需要分四类}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}四子类型 × 全维度整合表}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}LLM 替代判定总表}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}三个假说与交叉推演}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}三个假说}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}九个核心判断}{7}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}判断 1:A 和 C 是共存模式,不是先后关系}{7}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}判断 2:A→B 退化循环存在,但不是必然的}{7}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}判断 3:社会型直觉是最危险的失衡域}{8}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}判断 4:感知型中空期已经开始了}{8}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}判断 5:C 的成功不能消除 B 的构成性问题}{8}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}判断 6:分层后果暴露需要按子类型差异化推进}{8}{subsubsection.4.2.6}%
+\contentsline {subsubsection}{\numberline {4.2.7}判断 7:人优先协议是最有效的单点干预}{9}{subsubsection.4.2.7}%
+\contentsline {subsubsection}{\numberline {4.2.8}判断 8:不可回避性是退化的真正防线}{9}{subsubsection.4.2.8}%
+\contentsline {subsubsection}{\numberline {4.2.9}判断 9:社会型和道德型的退化是"身份退位",不是"技能丧失"}{9}{subsubsection.4.2.9}%
+\contentsline {section}{\numberline {5}治理框架}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}三条铁律}{9}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}四个"不推进"区}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}实施风险与意外后果}{10}{subsection.5.3}%
+\contentsline {section}{\numberline {6}开放问题}{11}{section.6}%
+\contentsline {section}{\numberline {7}结论}{12}{section.7}%
+\contentsline {section}{\numberline {A}附录:核心概念操作化(精简)}{14}{section.A}%
