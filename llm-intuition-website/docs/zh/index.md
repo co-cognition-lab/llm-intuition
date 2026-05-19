@@ -17,8 +17,8 @@ features:
     details: AI 在下棋和考试中像神，在读人和道德判断中像瞎子。核心差异不是智能水平，而是「犯错的代价由谁承担」。
     link: /zh/main
   - icon: 📝
-    title: 发现 2：文本中介陷阱
-    details: 几乎所有评估 AI「社会智能」的测试都是文本题——天然偏袒 AI。真实社交被压缩成阅读理解，结论不可靠。
+    title: 发现 2：具身性缺口
+    details: 多模态 LLM 即使处理视频和音频，仍缺乏具身互动中的真实代价承担和主体性。文本不是问题，缺身体才是。
     link: /zh/main
   - icon: 🛡️
     title: 发现 3：不可回避性是防线
@@ -29,6 +29,14 @@ features:
     details: 构成性退化——不是「我不会判断了」，而是「我不再觉得这是我的责任」。社会型和道德型是最危险的失衡域。
     link: /zh/main
 ---
+
+## 预印本
+
+论文已公开发布：
+- **[OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)** — 正式 DOI + 永久时间戳
+- **[arXiv](https://arxiv.org)** — 提交审核中
+- **[GitHub](https://github.com/co-cognition-lab/llm-intuition)** — LaTeX 源码 + 完整项目文件
+- **引用格式**：Li, J. (2026). *LLMs and Human Intuition: Evolutionary Pathways and Complementary Spaces*. OSF Preprints. https://doi.org/10.17605/OSF.IO/XSY39
 
 ## 关于本项目
 
