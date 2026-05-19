@@ -17,8 +17,8 @@ features:
     details: "AI is godlike at chess and exams, blind at reading people and moral judgment. The core difference isn't intelligence—it's 'who bears the cost of being wrong'."
     link: /en/main
   - icon: 📝
-    title: 'Finding 2: The Textual Mediation Trap'
-    details: Almost all tests of AI "social intelligence" are text-based—naturally favoring AI. Real social interaction compressed into reading comprehension yields unreliable conclusions.
+    title: 'Finding 2: The Embodiment Gap'
+    details: Even multimodal LLMs processing video and audio lack real cost-bearing and agency in embodied interaction. Text isn't the problem—the absence of a body is.
     link: /en/main
   - icon: 🛡️
     title: 'Finding 3: Unavoidability Is the Defense'
@@ -29,6 +29,14 @@ features:
     details: Constitutive degradation—not "I can't judge anymore" but "I no longer feel it's my responsibility." Social and moral intuition are the most dangerous imbalance domains.
     link: /en/main
 ---
+
+## Preprint
+
+The paper is now publicly available:
+- **[OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)** — DOI + permanent timestamp
+- **[arXiv](https://arxiv.org)** — under review
+- **[GitHub](https://github.com/co-cognition-lab/llm-intuition)** — LaTeX source + full project files
+- **Citation**: Li, J. (2026). *LLMs and Human Intuition: Evolutionary Pathways and Complementary Spaces*. OSF Preprints. https://doi.org/10.17605/OSF.IO/XSY39
 
 ## About This Project
 
