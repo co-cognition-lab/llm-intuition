@@ -1,6 +1,6 @@
 # Competition Landscape v4
 
-> 馃毀 Coming Soon
+> 🚧 Coming Soon
 
 The LLM Global Competition Landscape projection report v4 is being finalized. This report applies Project 1's theoretical framework (intuition subtypes, constitutive degradation, human-first protocol) to real-world global LLM competition analysis:
 
