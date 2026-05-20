@@ -37,11 +37,11 @@ features:
 
 Co-Cognition Lab is building a cognitive map that AI and humans can **explore together** — a panoramic survey of what we call the "truth universe."
 
-At its center is the **Co-Cognition Map** (Project 2): What domains of knowledge remain siloed because their methodological paradigms are incompatible? Where can co-cognition provide unique epistemic value? This is a cross-disciplinary taxonomy and multi-dimensional scoring system, currently narrowing from 108 candidate domains.
+At its center is the **Co-Cognition Map**: What domains of knowledge remain siloed because their methodological paradigms are incompatible? Where can co-cognition provide unique epistemic value? This is a cross-disciplinary taxonomy and multi-dimensional scoring system, currently narrowing from 108 candidate domains.
 
-**LLM Intuition Exploration** (Project 1) is the first anchor point on this map — four intuition subtypes, constitutive degradation, and the Human-First Protocol provide the theoretical foundation. **Competition Landscape** (Project 4) extends that framework into strategic analysis of the global LLM race — and doubles as a testable assertion, left for time to verify.
+[**LLM Intuition Research**](/en/main) is the first anchor point on this map — four intuition subtypes, constitutive degradation, and the Human-First Protocol provide the theoretical foundation. [**Competition Landscape**](/en/competition) extends that framework into strategic analysis of the global LLM race — and doubles as a testable assertion, left for time to verify.
 
-While mapping the terrain, we identified a blind spot that cuts across all quadrants: **human-AI cognitive collaboration under crisis and extreme conditions**. The existing taxonomy didn't reach it — **Crisis Cognition Collaboration** (Project 3) exists to fill that gap.
+While mapping the terrain, we identified a blind spot that cuts across all quadrants: **human-AI cognitive collaboration under crisis and extreme conditions**. The existing taxonomy didn't reach it — **Crisis Cognition Collaboration** exists to fill that gap.
 
 One map, one anchor point, one field test, one gap filled — at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
 
