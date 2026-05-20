@@ -1,12 +1,12 @@
 ---
 layout: home
 hero:
-  name: co-cognition.org/lab
+  name: 'Co-Cognition Lab'
   text: ''
-  tagline: 'LLM × Human Intuition: Evolutionary Path Exploration'
+  tagline: 'LLM 脳 Human Cognition: Exploring the Unknowns of AI'
   actions:
     - theme: brand
-      text: 中文
+      text: 涓枃
       link: /zh/
     - theme: alt
       text: English
