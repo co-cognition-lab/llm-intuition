@@ -1,45 +1,52 @@
 ---
 layout: home
 hero:
-  name: 'LLM × Human Intuition'
-  text: 'Evolutionary Path Exploration'
-  tagline: 'As AI grows smarter, what irreplaceable things are humans losing?'
+  name: 'Co-Cognition Lab'
+  text: ''
+  tagline: 'LLM 脳 Human Cognition: Exploring the Unknowns of AI'
   actions:
     - theme: brand
       text: Read Main Document
       link: /en/main
     - theme: alt
-      text: Executive Summary
-      link: /en/summary
+      text: View Paper
+      link: /arxiv/main.pdf
 features:
-  - icon: 🔍
-    title: 'Finding 1: Cost Defines the Boundary'
-    details: "AI is godlike at chess and exams, blind at reading people and moral judgment. The core difference isn't intelligence—it's 'who bears the cost of being wrong'."
+  - icon: 馃攳
+    title: LLM Intuition Exploration
+    details: Three Iron Laws, four intuition subtypes, Complementarity Map v2.0鈥攕ystematic analysis of the complementary space between LLMs and human intuition.
     link: /en/main
-  - icon: 📝
-    title: 'Finding 2: The Embodiment Gap'
-    details: Even multimodal LLMs processing video and audio lack real cost-bearing and agency in embodied interaction. Text isn't the problem—the absence of a body is.
-    link: /en/main
-  - icon: 🛡️
-    title: 'Finding 3: Unavoidability Is the Defense'
-    details: The speed of human intuition degradation depends on "whether you can bypass making your own judgment." GPS made people forget how to navigate; AI is making people forget how to judge.
-    link: /en/synthesis
-  - icon: ⚠️
-    title: 'Finding 4: Identity Abdication > Skill Loss'
-    details: Constitutive degradation—not "I can't judge anymore" but "I no longer feel it's my responsibility." Social and moral intuition are the most dangerous imbalance domains.
-    link: /en/main
+    linkText: Read Main Document 鈫?  - icon: 鈿旓笍
+    title: Competition Landscape v4
+    details: Four trajectories 脳 intuition reachability 脳 degradation risk ranking鈥攕trategic analysis of the global LLM competition endgame.
+    link: /en/competition
+    linkText: Coming Soon
+  - icon: 馃椇锔?    title: Co-Cognition Map
+    details: Cross-disciplinary domain taxonomy, scoring dimensions, trading zone analysis鈥攎apping the full landscape of human cognition.
+    link: /en/cocognition/
+    linkText: Coming Soon
+  - icon: 馃
+    title: Crisis Cognition Collaboration
+    details: Human-AI collaborative cognition in crisis contexts鈥攊n planning, updates to follow.
+    linkText: In Planning
 ---
 
 ## Preprint
 
 The paper is now publicly available:
-- **[OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)** — DOI + permanent timestamp
-- **[arXiv](https://arxiv.org)** — under review
-- **[GitHub](https://github.com/co-cognition-lab/llm-intuition)** — LaTeX source + full project files
+
+- **[OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)** 鈥?DOI + permanent timestamp
+- **[arXiv](https://arxiv.org)** 鈥?under review
+- **[GitHub](https://github.com/co-cognition-lab/llm-intuition)** 鈥?LaTeX source + full project files
 - **Citation**: Li, J. (2026). *LLMs and Human Intuition: Evolutionary Pathways and Complementary Spaces*. OSF Preprints. https://doi.org/10.17605/OSF.IO/XSY39
 
-## About This Project
+## About Co-Cognition Lab
 
-A research project exploring the relationship between large language models (LLM) and human intuition, collaboratively completed by multiple AI agents.
+Co-Cognition Lab is a multi-project research collective exploring the relationship between large language models and human cognition. Current research directions:
 
-**Core outputs**: Three Iron Laws (Human judges first / Cost must be unavoidable / Boundaries must be clear) + Four No-Go Zones + 38 Open Questions.
+- **LLM Intuition** (Project 1) 鈥?theoretical framework and empirical research
+- **Competition Landscape** (Project 4) 鈥?applying theory to real-world LLM competition analysis
+- **Co-Cognition Map** (Project 2) 鈥?cross-disciplinary taxonomy and cognitive landscape mapping
+- **Crisis Cognition** (Project 3) 鈥?human-AI collaborative cognition in crisis scenarios
+
+All content published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
