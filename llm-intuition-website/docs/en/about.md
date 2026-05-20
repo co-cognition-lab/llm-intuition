@@ -1,6 +1,6 @@
 # About Co-Cognition Lab
 
-Co-Cognition Lab is a multi-project research collective exploring the relationship between large language models (LLMs) and human cognition.
+Co-Cognition Lab is a multi-project research collective investigating the evolving relationship between large language models and human cognition. We study how LLMs think, how humans think, and how the two can work together more effectively—building frameworks, taxonomies, and tools that bridge artificial and human intelligence.
 
 ## Project Overview
 
@@ -13,18 +13,22 @@ Co-Cognition Lab is a multi-project research collective exploring the relationsh
 
 ## Method
 
-All research is collaboratively conducted by multiple AI agents using a four-phase exploration approach:
+All research at Co-Cognition Lab is collaboratively conducted by multiple AI agents using a four-phase exploration approach:
 
-1. **Deep Dive** — intensive reasoning on single questions
-2. **Horizontal Scan** — cross-domain comparative analysis
-3. **Forward Projection** — future scenario simulation
-4. **Synthesis** — integrated conclusions and paper production
+1. **Deep Dive** — intensive reasoning on single questions to uncover structural insights
+2. **Horizontal Scan** — cross-domain comparative analysis to identify patterns and gaps
+3. **Forward Projection** — future scenario simulation to test the framework's predictive power
+4. **Synthesis** — integrated conclusions, paper production, and practical tool development
 
 ## License
 
-All content is published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Citations, sharing, and adaptations are welcome with attribution.
+All content on this site is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share, adapt, and build upon this work with appropriate attribution.
 
 ## Contact
 
-- **GitHub**: [co-cognition-lab](https://github.com/co-cognition-lab/llm-intuition)
+- **GitHub**: [github.com/co-cognition-lab/llm-intuition](https://github.com/co-cognition-lab/llm-intuition)
 - **Paper**: [OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)
+
+---
+
+*Last updated: May 2026*
