@@ -1,17 +1,17 @@
 import { defineConfig } from 'vitepress'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
-// 鈹€鈹€ 鍏变韩瀵艰埅椤瑰畾涔夛紙閾炬帴鎸?locale 涓嶅悓锛?鈹€鈹€
+// ── 共享导航项定义（链接按 locale 不同） ──
 const zhNav = [
-  { text: 'LLM 鐩磋', link: '/zh/main' },
-  { text: '绔炰簤鏍煎眬', link: '/zh/competition' },
+  { text: 'LLM 直觉', link: '/zh/main' },
+  { text: '竞争格局', link: '/zh/competition' },
   {
-    text: 'Co-Cognition 鍏ㄦ櫙鍥?,
+    text: 'Co-Cognition 全景图',
     items: [
-      { text: '鍒嗙被瀛︽鏋?, link: '/zh/cocognition/' },
+      { text: '分类学框架', link: '/zh/cocognition/' },
     ],
   },
-  { text: '鍏充簬', link: '/zh/about' },
+  { text: '关于', link: '/zh/about' },
 ]
 
 const enNav = [
@@ -26,46 +26,46 @@ const enNav = [
   { text: 'About', link: '/en/about' },
 ]
 
-// 鈹€鈹€ 鍏变韩渚ц竟鏍?鈹€鈹€
+// ── 共享侧边栏 ──
 const zhSidebar = [
   {
-    text: 'LLM 涓庝汉绫荤洿瑙?,
+    text: 'LLM 与人类直觉',
     collapsed: false,
     items: [
-      { text: '涓绘枃妗?, link: '/zh/main' },
-      { text: '鎵ц鎽樿', link: '/zh/summary' },
-      { text: '缁煎悎杈撳嚭', link: '/zh/synthesis' },
-      { text: '璺ㄦ枃鍖栭檮褰?, link: '/zh/cross-cultural' },
-      { text: '鎿嶄綔鍖栭檮褰?, link: '/zh/operationalization' },
-      { text: '浜у搧鎸囧崡', link: '/zh/product-guide' },
+      { text: '主文档', link: '/zh/main' },
+      { text: '执行摘要', link: '/zh/summary' },
+      { text: '综合输出', link: '/zh/synthesis' },
+      { text: '跨文化附录', link: '/zh/cross-cultural' },
+      { text: '操作化附录', link: '/zh/operationalization' },
+      { text: '产品指南', link: '/zh/product-guide' },
     ],
   },
   {
-    text: '鍚岃璇勫',
+    text: '同行评审',
     collapsed: true,
     items: [
-      { text: '鍒涙柊鎬ц瘎瀹?, link: '/en/peer-review' },
+      { text: '创新性评审', link: '/en/peer-review' },
     ],
   },
   {
-    text: '绔炰簤鏍煎眬鎺ㄦ紨',
+    text: '竞争格局推演',
     collapsed: true,
     items: [
-      { text: 'v4 鎺ㄦ紨', link: '/zh/competition' },
+      { text: 'v4 推演', link: '/zh/competition' },
     ],
   },
   {
-    text: 'Co-Cognition 鍏ㄦ櫙鍥?,
+    text: 'Co-Cognition 全景图',
     collapsed: true,
     items: [
-      { text: '鍒嗙被瀛︽鏋?, link: '/zh/cocognition/' },
+      { text: '分类学框架', link: '/zh/cocognition/' },
     ],
   },
   {
-    text: '鍏充簬',
+    text: '关于',
     collapsed: true,
     items: [
-      { text: '椤圭洰璇存槑', link: '/zh/about' },
+      { text: '项目说明', link: '/zh/about' },
     ],
   },
 ]
@@ -116,21 +116,21 @@ const enSidebar = [
 export default defineConfig({
   title: 'Co-Cognition Lab',
   titleTemplate: ':title | Co-Cognition Lab',
-  description: 'LLM 脳 浜虹被璁ょ煡锛氭帰绱?AI 鐨勭洸鍖轰笌浜虹被鐨勪笉鍙浛浠ｆ€?,
+  description: 'LLM × 人类认知：探索 AI 的盲区与人类的不可替代性',
   lang: 'zh-CN',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Co-Cognition Lab' }],
-    ['meta', { property: 'og:title', content: 'Co-Cognition Lab 鈥?LLM 脳 Human Cognition' }],
+    ['meta', { property: 'og:title', content: 'Co-Cognition Lab — LLM × Human Cognition' }],
     ['meta', { property: 'og:description', content: 'Exploring the unknowns of AI and the irreplaceable nature of human cognition.' }],
   ],
   locales: {
     root: {
-      label: '涓枃',
+      label: '中文',
       lang: 'zh-CN',
       title: 'Co-Cognition Lab',
-      description: 'LLM 脳 浜虹被璁ょ煡锛氭帰绱?AI 鐨勭洸鍖轰笌浜虹被鐨勪笉鍙浛浠ｆ€?,
+      description: 'LLM × 人类认知：探索 AI 的盲区与人类的不可替代性',
       themeConfig: {
         nav: zhNav,
         sidebar: {
@@ -142,7 +142,7 @@ export default defineConfig({
       label: 'English',
       lang: 'en-US',
       title: 'Co-Cognition Lab',
-      description: 'LLM 脳 Human Cognition: Exploring the Unknowns of AI',
+      description: 'LLM × Human Cognition: Exploring the Unknowns of AI',
       themeConfig: {
         nav: enNav,
         sidebar: {
@@ -158,11 +158,11 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/co-cognition-lab/llm-intuition' }],
     outline: { level: [2, 3] },
     lastUpdated: {
-      text: '鏈€鍚庢洿鏂?,
+      text: '最后更新',
     },
     docFooter: {
-      prev: '涓婁竴椤?,
-      next: '涓嬩竴椤?,
+      prev: '上一页',
+      next: '下一页',
     },
   },
   vite: { plugins: [pagefindPlugin()] },
