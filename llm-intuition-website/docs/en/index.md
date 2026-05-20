@@ -21,7 +21,7 @@ features:
     title: Competition Landscape v4
     details: Four evolutionary trajectories, intuition reachability analysis, and a degradation-risk ranking—strategic intelligence on the global LLM race and where it is heading.
     link: /en/competition
-    linkText: Coming Soon
+    linkText: Read the Analysis →
   - icon: 🗺️
     title: Co-Cognition Map
     details: A cross-disciplinary taxonomy of cognitive domains, multi-dimensional scoring, and trading-zone analysis—mapping the full terrain of human cognition in the age of AI.
