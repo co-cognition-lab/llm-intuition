@@ -129,6 +129,7 @@ export default defineConfig({
     root: {
       label: '中文',
       lang: 'zh-CN',
+      link: '/zh/',
       title: 'Co-Cognition Lab',
       description: 'LLM × 人类认知：探索 AI 的盲区与人类的不可替代性',
       themeConfig: {
