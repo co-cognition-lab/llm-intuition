@@ -9,7 +9,7 @@ description: 'Main document — three core propositions, four intuition subtypes
 >
 > **This is the project's main document** — a complete record of the entire process from the establishment of core propositions, to systematic mapping of intuition subtypes, to cross-pushing of three hypotheses, to final synthesis. It is self-contained and readable independently.
 >
-> **If you are an external reviewer**: start here. This document covers the project's full scope and theoretical framework. The [Synthesis](4_Synthesis_v1.0.md) focuses on application — Complementary Map v2.0, collaboration protocols, evolutionary roadmap, core narrative, and 38 open questions — the "action plan" section of this document. Their relationship: this document is the "why" and "what"; the synthesis is the "what to do" and "how to do it."
+> **If you are an external reviewer**: start here. This document covers the project's full scope and theoretical framework. The [Synthesis](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/4_Synthesis_v1.0.md) focuses on application — Complementary Map v2.0, collaboration protocols, evolutionary roadmap, core narrative, and 38 open questions — the "action plan" section of this document. Their relationship: this document is the "why" and "what"; the synthesis is the "what to do" and "how to do it."
 >
 > **v1.3 additions**: layperson term explanations (Section 1.4), matrix footnotes (Section 3.3), implementation risks and unintended consequences (Section 6), 40 references (Section 8), OQ priority labels (Section 7).
 >
@@ -570,15 +570,15 @@ The "do not pursue moral-type C" judgment may be over-interpreted — potentiall
 | What You Are Looking For | Which File to Read |
 |-------------------------|-------------------|
 | **Project overview and theoretical framework** (why, what) | 👈 This document |
-| **Actionable Complementary Map v2.0 + collaboration protocol + evolutionary roadmap** (what to do, how) | [Synthesis](4_Synthesis_v1.0.md) |
-| **Product design specifications (PRD-level)** | [Product Implementation Guide](Appendix_Product_Guide.md) |
-| **Measurement and verification methods for core concepts** | [Operationalization Appendix](Appendix_Operationalization.md) |
-| **Cross-cultural applicability assessment** | [Cross-Cultural Appendix](Appendix_CrossCultural.md) |
-| **10-page executive summary** | [Executive Summary](Executive_Summary.md) |
+| **Actionable Complementary Map v2.0 + collaboration protocol + evolutionary roadmap** (what to do, how) | [Synthesis](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/4_Synthesis_v1.0.md) |
+| **Product design specifications (PRD-level)** | [Product Implementation Guide](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Appendix_Product_Guide.md) |
+| **Measurement and verification methods for core concepts** | [Operationalization Appendix](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Appendix_Operationalization.md) |
+| **Cross-cultural applicability assessment** | [Cross-Cultural Appendix](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Appendix_CrossCultural.md) |
+| **10-page executive summary** | [Executive Summary](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Executive_Summary.md) |
 | **Implementation risks and unintended consequences** | Section 6 of this document |
-| **Detailed argumentation process of each discussion** | [2.1](2.1_Horizontal_Scan_Matrix_v0.1.md), [2.2](2.2_Conceptual_Moral_Intuition.md), [3.1 A×C](3.1_AxC_Cross_Push_main.md) |
-| **External agent independent review/projection full text** | [hunyuan round 1](1.3_Response_hunyuan.md), [kimi round 1](1.3_Response_kimik2.6.md), [hunyuan round 2](2.3_Feedback_hunyuan.md), [kimi round 2](2.3_Feedback_kimik2.6.md), [hunyuan A×B](3.1_AxB_Cross_Push_hunyuan.md), [kimi B×C](3.1_BxC_Cross_Push_kimik2.6.md) |
-| **Three kimi group review reports** | [Expression quality](../review_expression.md), [Practical value](../review_practicality.md), [Innovation contribution](../review_innovation.md) |
+| **Detailed argumentation process of each discussion** | [2.1](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/2.1_Horizontal_Scan_Matrix_v0.1.md), [2.2](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/2.2_Conceptual_Moral_Intuition.md), [3.1 A×C](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/3.1_AxC_Cross_Push_main.md) |
+| **External agent independent review/projection full text** | [hunyuan round 1](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/1.3_Response_hunyuan.md), [kimi round 1](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/1.3_Response_kimik2.6.md), [hunyuan round 2](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/2.3_Feedback_hunyuan.md), [kimi round 2](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/2.3_Feedback_kimik2.6.md), [hunyuan A×B](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/3.1_AxB_Cross_Push_hunyuan.md), [kimi B×C](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/3.1_BxC_Cross_Push_kimik2.6.md) |
+| **Three kimi group review reports** | [Expression quality](https://github.com/co-cognition-lab/llm-intuition/blob/main/review_expression.md#../review_expression.md), [Practical value](https://github.com/co-cognition-lab/llm-intuition/blob/main/review_practicality.md#../review_practicality.md), [Innovation contribution](https://github.com/co-cognition-lab/llm-intuition/blob/main/review_innovation.md#../review_innovation.md) |
 
 ---
 
