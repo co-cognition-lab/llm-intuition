@@ -2,7 +2,7 @@
 
 > 版本：v1.1 | 2026-05-16 | 配合主文档 v1.3 同步更新
 > 
-> **本文是项目的"行动纲领"**——聚焦于可操作的应用层面。如果你是外部审阅者，建议同时阅读[主文档](LLM_Intuition_Exploration.md)（v1.3）以获取完整的理论框架和推导过程。两者分工：主文档是"为什么"和"是什么"，本文是"做什么"和"怎么做"。
+> **本文是项目的"行动纲领"**——聚焦于可操作的应用层面。如果你是外部审阅者，建议同时阅读[主文档](/zh/LLM_Intuition_Exploration)（v1.3）以获取完整的理论框架和推导过程。两者分工：主文档是"为什么"和"是什么"，本文是"做什么"和"怎么做"。
 >
 > **v1.1 新增**：配套附录索引（A5 产品化指南 / A7 跨文化评估 / A8 操作化附录 / A9 决策者摘要）、OQ 优先级标注、实施风险交叉引用、A7 跨文化扩展建议摘要。
 >
@@ -371,10 +371,10 @@ SJT 超人类 ≠ 社会直觉超人类。道德困境的文本判断 ≠ 有道
 
 | 附录 | 文件 | 面向读者 | 核心内容 |
 |------|------|---------|---------|
-| **A5 产品化实施指南** | [Appendix_Product_Guide.md](Appendix_Product_Guide.md) | 产品经理、UX 设计师 | 四子类型 UI/UX 设计规范、人优先协议实施、迁移路线图、A/B 测试方案 |
-| **A7 跨文化适用性评估** | [Appendix_CrossCultural.md](Appendix_CrossCultural.md) | 政策制定者、研究者 | WEIRD 前提审查、东亚/伊斯兰/Ubuntu 文化适配、文化第三轴操作化 |
-| **A8 核心概念操作化** | [Appendix_Operationalization.md](Appendix_Operationalization.md) | 研究者、工程师 | 代价敏感/选择性忽略/不可回避性/构成性退化/中空期的测量方案 |
-| **A9 决策者摘要** | [Executive_Summary.md](Executive_Summary.md) | 决策者、媒体、普通用户 | 10 页零术语核心叙事、四个发现、三条铁律、退化热力图、行动建议 |
+| **A5 产品化实施指南** | [Appendix_Product_Guide.md](/zh/Appendix_Product_Guide) | 产品经理、UX 设计师 | 四子类型 UI/UX 设计规范、人优先协议实施、迁移路线图、A/B 测试方案 |
+| **A7 跨文化适用性评估** | [Appendix_CrossCultural.md](/zh/Appendix_CrossCultural) | 政策制定者、研究者 | WEIRD 前提审查、东亚/伊斯兰/Ubuntu 文化适配、文化第三轴操作化 |
+| **A8 核心概念操作化** | [Appendix_Operationalization.md](/zh/Appendix_Operationalization) | 研究者、工程师 | 代价敏感/选择性忽略/不可回避性/构成性退化/中空期的测量方案 |
+| **A9 决策者摘要** | [Executive_Summary.md](/zh/Executive_Summary) | 决策者、媒体、普通用户 | 10 页零术语核心叙事、四个发现、三条铁律、退化热力图、行动建议 |
 
 ### A7 跨文化扩展建议（重要）
 
