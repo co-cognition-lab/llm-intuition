@@ -11,7 +11,7 @@ Our central inquiry is **complementarity**: AI and humans each have intuition bl
 | [LLM Intuition Exploration](/en/main) | Theoretical framework—LLM cognitive blind spots and the complementary space of human intuition | ✅ Live |
 | [Competition Landscape v4](/en/competition) | Applied analysis—global LLM competition through the lens of intuition subtype theory | ✅ Live |
 | Co-Cognition Map | Taxonomy—cross-disciplinary domain classification and cognitive landscape mapping | 🟡 In Progress |
-| Crisis Cognition Collaboration | Crisis collaboration—human-AI collaborative cognition under extreme conditions | ⚪ Planned |
+| [Crisis Cognition Collaboration](/en/crisis/) | Crisis collaboration—human-AI collaborative cognition under extreme conditions | ⚪ Planned |
 
 ## Method
 
@@ -29,4 +29,5 @@ All content on this site is licensed under [CC BY 4.0](https://creativecommons.o
 ## Contact
 
 - **GitHub**: [github.com/co-cognition-lab/llm-intuition](https://github.com/co-cognition-lab/llm-intuition)
+- **Email**: research@co-cognition.org
 - **Paper**: [OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)
