@@ -8,7 +8,7 @@ description: 'PRD-level design specs for product managers — UI/UX patterns by 
 > Version: v1.0 | Date: 2026-05-16
 >
 > Target readers: AI Product Managers, UX designers, technical leads
-> Prerequisite: It is recommended to first read the Main Document [LLM_Intuition_Exploration.md](LLM_Intuition_Exploration.md) v1.3, Section 3 (Mapping Matrix) and Section 5 (Three Iron Laws & Four No-Gos)
+> Prerequisite: It is recommended to first read the Main Document [LLM_Intuition_Exploration.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/LLM_Intuition_Exploration.md) v1.3, Section 3 (Mapping Matrix) and Section 5 (Three Iron Laws & Four No-Gos)
 
 ---
 
