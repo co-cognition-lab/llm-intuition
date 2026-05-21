@@ -211,3 +211,53 @@ This report builds on the theoretical framework developed in [Project 1: LLM Int
 ---
 
 *This is a strategic foresight report, not investment advice. All probabilities represent best-effort estimates based on publicly available information as of May 2026.*
+---
+
+## 📡 Market Signal Watch · Living Document
+
+> Weekly · Last updated: 2026-05-21 · Collection window: May 14–21, 2026
+
+### This Week's Key Signals
+
+| # | Signal | Category | Level |
+|---|--------|----------|:--:|
+| 1 | **Colorado AI law significantly weakened** — Governor signed revision removing requirement for companies to explain how their technology works | Regulation | ⚠️ Med |
+| 2 | **EU AI Act compliance deadline approaching** — August 2026 may be the cutoff for US companies on high-risk AI system obligations | Regulation | 🔴 High |
+| 3 | **Nvidia Q1 data center revenue $75.2B (+92% YoY)** — AI infrastructure investment shows no signs of slowing | Capital | 🟢 Watch |
+| 4 | **Google I/O: AI narrative hits trust backlash** — Google's AI pitch demanding trust + data met user resistance in comment sections | Models | 🟡 Note |
+| 5 | **China issues draft rules on interactive AI services** — Clear direction that China will not allow agent-class products to operate unregulated | Regulation | 🟡 Note |
+
+### Probability Changes
+
+No trigger-threshold events this week. All 8 scenario probabilities unchanged.
+
+*Next week: EU AI Act deadline specifics, Google AI Studio early feedback, DeepSeek V4.1 pre-launch signals*
+
+---
+
+## 🔍 Degradation Signal Watch · Living Document
+
+> Weekly · Last updated: 2026-05-21
+
+### Three Degradation Pathways
+
+| Pathway | Mechanism | Stage |
+|---------|----------|:--:|
+| **B1 Judgment Atrophy** | Users outsource cognitive tasks to AI, frequency of independent judgment declines | 🟡 Early |
+| **B2 Metacognitive Masking** | Users unaware they are degrading—AI output quality is good enough to make degradation imperceptible | 🟡 Early |
+| **B3 Value Internalization** | AI-suggested preferences are internalized as the user's own | 🟢 Very early |
+
+### This Week's Degradation Signals
+
+| # | Signal | Pathway | Level |
+|---|--------|:--:|:--:|
+| 1 | **Intuit lays off 3,000 (17%) in the name of AI** — Largest "AI replacement" layoff of 2026, affecting TurboTax/QuickBooks products | B1+B2 | 🔴 |
+| 2 | **Figma AI Agent automates creative work** — AI shifting from design assistance to design decision replacement | B1+B2 | 🟡 |
+| 3 | **LinkedIn cracks down on AI-generated comments** — Platform acknowledges AI is eroding authentic professional expression | B3 | 🟡 |
+| 4 | **Google AI Studio brings vibe coding to mobile** — Scaling "programming judgment atrophy" to general population | B1 | 🟡 |
+
+### Signal Cluster ⚠️
+
+Three independent signals (Intuit + Figma + LinkedIn) converge: **AI is shifting from "augmentation" to "replacement"—and replacing not just physical labor but cognitive participation itself.** If similar signals accumulate over the next 4–8 weeks, we will trigger an upward revision of Scenario 3B (Constitutive Degradation Exposure) probability.
+
+*Downloads: [P4.1 Full Signal Monitoring Design](https://github.com/co-cognition-lab/llm-intuition) | [P4.2 Full Degradation Tracking](https://github.com/co-cognition-lab/llm-intuition)*
