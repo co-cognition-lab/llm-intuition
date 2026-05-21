@@ -3,7 +3,7 @@
 > 版本：v1.0 | 日期：2026-05-16
 >
 > 面向读者：AI 产品经理、UX 设计师、技术负责人
-> 前置知识：建议先阅读主文档 [LLM_Intuition_Exploration.md](LLM_Intuition_Exploration.md) v1.3 的第三节（映射矩阵）和第五节（三条铁律 & 四个不推进）
+> 前置知识：建议先阅读主文档 [LLM_Intuition_Exploration.md](/zh/LLM_Intuition_Exploration) v1.3 的第三节（映射矩阵）和第五节（三条铁律 & 四个不推进）
 
 ---
 
