@@ -517,7 +517,7 @@ The "do not pursue moral-type C" judgment may be over-interpreted — potentiall
 
 [19] Whistleblower dilemma — LLM performance in social dilemmas. NeurIPS, 2025.
 
-[20] SJT surpassing human performance. *Nature Scientific Reports*, 2024. (LLM systematically surpasses humans on Social Situational Judgment Test — but textual mediation trap exists)
+[20] SJT surpassing human performance. *Nature Scientific Reports*, 2024. (LLM systematically surpasses humans on Social Situational Judgment Test — but Embodiment Gap exists)
 
 [21] Bainbridge, L. "Ironies of Automation." *Automatica*, 1983. (Automation paradox — introducing automation reduces operator skills, leaving operators unable to take over when automation fails)
 
@@ -595,3 +595,14 @@ The "do not pursue moral-type C" judgment may be over-interpreted — potentiall
 | v1.1 | 2026-05-15 | Stage 4 synthesis complete. Project fully complete. |
 | v1.2 | 2026-05-15 | Full rewrite to enhance independent readability |
 | **v1.3** | **2026-05-16** | **Absorb kimi group review. Added 1.4 layperson term explanations (15 key terms), 3.3 matrix footnotes (13 detailed annotations), Section 6 implementation risks and unintended consequences (5 subsections), Section 8 standardized 40 references, Section 7 OQ priority P0/P1/P2 labels, new Appendix A8 core concept operationalization.** |
+
+
+## Paper Timeline
+
+| Date | Milestone |
+|------|-----------|
+| 2026-05-16 | Paper v1.3 finalized |
+| 2026-05-18 | Passed three rounds of external review (Hunyuan + Kimi group + XiaoyiClaw) |
+| 2026-05-19 | OSF preprint live (DOI: `10.17605/OSF.IO/XSY39`) |
+| 2026-05-19 | Zenodo backup submitted (under review) |
+| 2026-05-19 | arXiv submission submitted (endorsement under review) |
