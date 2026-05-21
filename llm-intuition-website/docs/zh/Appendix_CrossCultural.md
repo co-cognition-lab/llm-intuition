@@ -3,7 +3,7 @@
 > 版本：v1.0 | 日期：2026-05-16
 >
 > 对应主文档 OQ38："文化维度作为互补地图第三轴"
-> 前置阅读：主文档 [LLM_Intuition_Exploration.md](LLM_Intuition_Exploration.md) v1.3 第三节（映射矩阵）
+> 前置阅读：主文档 [LLM_Intuition_Exploration.md](/zh/LLM_Intuition_Exploration) v1.3 第三节（映射矩阵）
 
 ---
 
