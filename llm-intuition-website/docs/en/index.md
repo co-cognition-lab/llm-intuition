@@ -22,6 +22,8 @@ features:
     details: Four evolutionary trajectories, intuition reachability analysis, and a degradation-risk ranking—strategic intelligence on the global LLM race and where it is heading.
     link: /en/competition
     linkText: Read the Analysis →
+> 🟢 Living document · Updated weekly with market signals & degradation watch
+
   - icon: 🗺️
     title: Co-Cognition Map
     details: A cross-disciplinary taxonomy of cognitive domains, multi-dimensional scoring, and trading-zone analysis—mapping the full terrain of human cognition in the age of AI.
