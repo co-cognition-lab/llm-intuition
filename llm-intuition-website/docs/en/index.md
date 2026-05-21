@@ -36,7 +36,7 @@ features:
 
 ## What We're Exploring
 
-Co-Cognition Lab is building a cognitive map that AI and humans can **explore together** — a panoramic survey of what we call the "truth universe."
+Co-Cognition Lab is building a cognitive map that AI and humans can **explore together** — a panoramic survey of what we call the "truth universe": a systematic mapping of the terrain where human cognition and machine intelligence meet.
 
 At its center is the **Co-Cognition Map**: What domains of knowledge remain siloed because their methodological paradigms are incompatible? Where can co-cognition provide unique epistemic value? This is a cross-disciplinary taxonomy and multi-dimensional scoring system, currently narrowing from 108 candidate domains.
 
