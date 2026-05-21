@@ -3,26 +3,18 @@ import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
 // ── 共享导航项定义（链接按 locale 不同） ──
 const zhNav = [
-  { text: 'LLM 直觉', link: '/zh/main' },
+  { text: 'LLM 直觉盲区', link: '/zh/main' },
   { text: '竞争格局', link: '/zh/competition' },
-  {
-    text: 'Co-Cognition 全景图',
-    items: [
-      { text: '分类学框架', link: '/zh/cocognition/' },
-    ],
-  },
+  { text: 'Co-Cognition 全景图', link: '/zh/cocognition/' },
+  { text: '危机认知', link: '/zh/crisis/' },
   { text: '关于', link: '/zh/about' },
 ]
 
 const enNav = [
   { text: 'LLM Intuition', link: '/en/main' },
   { text: 'Competition', link: '/en/competition' },
-  {
-    text: 'Co-Cognition Map',
-    items: [
-      { text: 'Taxonomy', link: '/en/cocognition/' },
-    ],
-  },
+  { text: 'Co-Cognition Map', link: '/en/cocognition/' },
+  { text: 'Crisis Cognition', link: '/en/crisis/' },
   { text: 'About', link: '/en/about' },
 ]
 
@@ -59,6 +51,13 @@ const zhSidebar = [
     collapsed: true,
     items: [
       { text: '分类学框架', link: '/zh/cocognition/' },
+    ],
+  },
+  {
+    text: '危机认知协作',
+    collapsed: true,
+    items: [
+      { text: '项目说明', link: '/zh/crisis/' },
     ],
   },
   {
@@ -105,6 +104,13 @@ const enSidebar = [
     ],
   },
   {
+    text: 'Crisis Cognition',
+    collapsed: true,
+    items: [
+      { text: 'Project Overview', link: '/en/crisis/' },
+    ],
+  },
+  {
     text: 'About',
     collapsed: true,
     items: [
@@ -115,7 +121,6 @@ const enSidebar = [
 
 export default defineConfig({
   title: 'Co-Cognition Lab',
-  titleTemplate: ':title | Co-Cognition Lab',
   description: 'LLM × 人类认知：探索 AI 的盲区与人类的不可替代性',
   lang: 'zh-CN',
   head: [
@@ -137,6 +142,13 @@ export default defineConfig({
         sidebar: {
           '/zh/': zhSidebar,
         },
+        lastUpdated: {
+          text: '最后更新',
+        },
+        docFooter: {
+          prev: '上一页',
+          next: '下一页',
+        },
       },
     },
     en: {
@@ -149,6 +161,13 @@ export default defineConfig({
         sidebar: {
           '/en/': enSidebar,
         },
+        lastUpdated: {
+          text: 'Last updated',
+        },
+        docFooter: {
+          prev: 'Previous',
+          next: 'Next',
+        },
       },
     },
   },
@@ -158,13 +177,6 @@ export default defineConfig({
     search: { provider: 'pagefind' },
     socialLinks: [{ icon: 'github', link: 'https://github.com/co-cognition-lab/llm-intuition' }],
     outline: { level: [2, 3] },
-    lastUpdated: {
-      text: '最后更新',
-    },
-    docFooter: {
-      prev: '上一页',
-      next: '下一页',
-    },
   },
   vite: { plugins: [pagefindPlugin()] },
   ignoreDeadLinks: true,
