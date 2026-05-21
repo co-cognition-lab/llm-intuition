@@ -328,7 +328,6 @@ export default defineConfig({
     )
   },
   vite: { plugins: [pagefindPlugin()] },
-  ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
 })
