@@ -12,6 +12,8 @@
 
 This report (v4) integrates the [LLM Intuition Project](/en/main)'s theoretical framework—intuition subtypes, constitutive degradation, and the Human-First Protocol—into strategic analysis of the global LLM landscape.
 
+> 📖 **Reading Guide**: 3-minute skim → the 6 Core Theses + Scenario Probability Summary | 15-minute read → add the 4-Trajectory Risk Ranking and Agent-Native World | Full study → ~1,500 words, includes China trajectory analysis, strategic recommendations, and cross-references to Project 1 theory
+
 ---
 
 ## Core Thesis: Six Judgments
