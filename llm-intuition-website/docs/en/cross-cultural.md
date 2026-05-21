@@ -8,7 +8,7 @@ description: 'WEIRD premise audit, cross-cultural differences across four subtyp
 > Version: v1.0 | Date: 2026-05-16
 >
 > Corresponding Main Document OQ38: "Cultural Dimensions as the Third Axis of the Complementarity Map"
-> Prerequisite reading: Main Document [LLM_Intuition_Exploration.md](LLM_Intuition_Exploration.md) v1.3 Section 3 (Mapping Matrix)
+> Prerequisite reading: Main Document [LLM_Intuition_Exploration.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/LLM_Intuition_Exploration.md) v1.3 Section 3 (Mapping Matrix)
 
 ---
 
