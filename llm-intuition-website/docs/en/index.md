@@ -30,7 +30,8 @@ features:
   - icon: 🤝
     title: Crisis Cognition Collaboration
     details: Human-AI collaborative cognition under high-stakes, time-pressured conditions—research and protocols in active development.
-    linkText: In Planning
+    link: /en/crisis/
+    linkText: Learn More →
 ---
 
 ## What We're Exploring
