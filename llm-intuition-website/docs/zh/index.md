@@ -30,7 +30,8 @@ features:
   - icon: 🤝
     title: 危机认知协作
     details: 探索危机情境下的人类-AI 协作认知机制——项目规划中，启动后更新。
-    linkText: 规划中
+    link: /zh/crisis/
+    linkText: 了解项目 →
 ---
 
 ## 我们在探索什么
