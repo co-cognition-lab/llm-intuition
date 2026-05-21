@@ -1,15 +1,17 @@
 # About Co-Cognition Lab
 
-Co-Cognition Lab is a multi-project research collective investigating the evolving relationship between large language models and human cognition. We study how LLMs think, how humans think, and how the two can work together more effectively—building frameworks, taxonomies, and tools that bridge artificial and human intelligence.
+Co-Cognition Lab is a multi-project research collective investigating the evolving relationship between large language models and human cognition.
+
+Our central inquiry is **complementarity**: AI and humans each have intuition blind spots—the real risk is not that one surpasses the other, but that their blind spots overlap without anyone noticing. Four projects trace a single arc: from theory to field test, from taxonomy to extreme-condition testing.
 
 ## Project Overview
 
 | Project | Focus | Status |
 |---------|-------|:---:|
-| Project 1: LLM Intuition | Theoretical framework—LLM cognitive blind spots and the complementary space of human intuition | ✅ Live |
-| Project 4: Competition Landscape v4 | Applied analysis—theory applied to global LLM competition | 🟡 Coming Soon |
-| Project 2: Co-Cognition Map | Taxonomy—cross-disciplinary domain classification and cognitive mapping | 🟡 In Progress |
-| Project 3: Crisis Cognition | Crisis collaboration—human-AI collaborative cognition in crisis scenarios | ⚪ Planned |
+| [LLM Intuition Exploration](/en/main) | Theoretical framework—LLM cognitive blind spots and the complementary space of human intuition | ✅ Live |
+| [Competition Landscape v4](/en/competition) | Applied analysis—global LLM competition through the lens of intuition subtype theory | ✅ Live |
+| Co-Cognition Map | Taxonomy—cross-disciplinary domain classification and cognitive landscape mapping | 🟡 In Progress |
+| Crisis Cognition Collaboration | Crisis collaboration—human-AI collaborative cognition under extreme conditions | ⚪ Planned |
 
 ## Method
 
@@ -28,7 +30,3 @@ All content on this site is licensed under [CC BY 4.0](https://creativecommons.o
 
 - **GitHub**: [github.com/co-cognition-lab/llm-intuition](https://github.com/co-cognition-lab/llm-intuition)
 - **Paper**: [OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)
-
----
-
-*Last updated: May 2026*
