@@ -7,7 +7,7 @@ description: 'Complementarity Map v2.0, collaboration protocols, evolutionary ro
 
 > Version: v1.1 | 2026-05-16 | Synchronized with the Main Document v1.3
 >
-> **This document serves as the project's "action manifesto"** — focusing on actionable application layers. If you are an external reviewer, we recommend also reading the [Main Document](LLM_Intuition_Exploration.md) (v1.3) for the complete theoretical framework and derivation process. The division of labor between the two: the Main Document addresses "why" and "what," while this document addresses "what to do" and "how to do it."
+> **This document serves as the project's "action manifesto"** — focusing on actionable application layers. If you are an external reviewer, we recommend also reading the [Main Document](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/LLM_Intuition_Exploration.md) (v1.3) for the complete theoretical framework and derivation process. The division of labor between the two: the Main Document addresses "why" and "what," while this document addresses "what to do" and "how to do it."
 >
 > **v1.1 additions**: Supporting appendix index (A5 Productization Guide / A7 Cross-cultural Assessment / A8 Operationalization Appendix / A9 Executive Summary), OQ priority annotations, implementation risk cross-references, A7 cross-cultural extension recommendations summary.
 >
@@ -376,10 +376,10 @@ The project v1.3 adds four supporting appendices, all available in the project r
 
 | Appendix | File | Target Reader | Core Content |
 |----------|------|---------------|-------------|
-| **A5 Productization Implementation Guide** | [Appendix_Product_Guide.md](Appendix_Product_Guide.md) | Product managers, UX designers | Four-subtype UI/UX design specifications, Human-first Protocol implementation, migration roadmap, A/B testing plan |
-| **A7 Cross-cultural Applicability Assessment** | [Appendix_CrossCultural.md](Appendix_CrossCultural.md) | Policy makers, researchers | WEIRD premise review, East Asian/Islamic/Ubuntu cultural adaptation, cultural third axis operationalization |
-| **A8 Core Concept Operationalization** | [Appendix_Operationalization.md](Appendix_Operationalization.md) | Researchers, engineers | Cost sensitivity / selective ignoring / unavoidability / Constitutive Degradation / Hollow Period measurement protocols |
-| **A9 Executive Summary** | [Executive_Summary.md](Executive_Summary.md) | Decision makers, media, general users | 10-page zero-jargon core narrative, four findings, three ironclad rules, degradation heat map, action recommendations |
+| **A5 Productization Implementation Guide** | [Appendix_Product_Guide.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Appendix_Product_Guide.md) | Product managers, UX designers | Four-subtype UI/UX design specifications, Human-first Protocol implementation, migration roadmap, A/B testing plan |
+| **A7 Cross-cultural Applicability Assessment** | [Appendix_CrossCultural.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Appendix_CrossCultural.md) | Policy makers, researchers | WEIRD premise review, East Asian/Islamic/Ubuntu cultural adaptation, cultural third axis operationalization |
+| **A8 Core Concept Operationalization** | [Appendix_Operationalization.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Appendix_Operationalization.md) | Researchers, engineers | Cost sensitivity / selective ignoring / unavoidability / Constitutive Degradation / Hollow Period measurement protocols |
+| **A9 Executive Summary** | [Executive_Summary.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm-intuition-website/docs/zh/Executive_Summary.md) | Decision makers, media, general users | 10-page zero-jargon core narrative, four findings, three ironclad rules, degradation heat map, action recommendations |
 
 ### A7 Cross-cultural Extension Recommendations (Important)
 
