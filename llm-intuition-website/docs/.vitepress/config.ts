@@ -1,6 +1,12 @@
 import { defineConfig } from 'vitepress'
 import { pagefindPlugin } from 'vitepress-plugin-pagefind'
 
+// ── 站点元数据 ──
+const HOSTNAME = 'https://co-cognition.org'
+const OG_IMAGE = '/og-image.jpg'
+const OG_IMAGE_WIDTH = '1200'
+const OG_IMAGE_HEIGHT = '630'
+
 // ── 共享导航项定义（链接按 locale 不同） ──
 const zhNav = [
   { text: 'LLM 直觉盲区', link: '/zh/main' },
@@ -119,6 +125,63 @@ const enSidebar = [
   },
 ]
 
+// ── 多语言 URL 映射表（用于 hreflang 注入） ──
+// 键为路径模板（去掉 /zh/ 或 /en/ 前缀），值为 { zh: 完整路径, en: 完整路径 }
+const localePairs: Record<string, { zh: string; en: string }> = {
+  'main': { zh: '/zh/main', en: '/en/main' },
+  'summary': { zh: '/zh/summary', en: '/en/summary' },
+  'synthesis': { zh: '/zh/synthesis', en: '/en/synthesis' },
+  'cross-cultural': { zh: '/zh/cross-cultural', en: '/en/cross-cultural' },
+  'operationalization': { zh: '/zh/operationalization', en: '/en/operationalization' },
+  'product-guide': { zh: '/zh/product-guide', en: '/en/product-guide' },
+  'competition': { zh: '/zh/competition', en: '/en/competition' },
+  'cocognition/': { zh: '/zh/cocognition/', en: '/en/cocognition/' },
+  'cocognition/index': { zh: '/zh/cocognition/', en: '/en/cocognition/' },
+  'crisis/': { zh: '/zh/crisis/', en: '/en/crisis/' },
+  'crisis/index': { zh: '/zh/crisis/', en: '/en/crisis/' },
+  'about': { zh: '/zh/about', en: '/en/about' },
+  'peer-review': { zh: '/en/peer-review', en: '/en/peer-review' },
+}
+
+/**
+ * 根据页面路径获取对应的中英文 URL 对
+ */
+function getLocaleUrls(pagePath: string): { zh: string; en: string } | null {
+  // pagePath 格式如: zh/main.md, en/main.md, zh/cocognition/index.md
+  const cleanPath = pagePath
+    .replace(/\.md$/, '')
+    .replace(/index$/, '')
+    .replace(/^zh\//, '')
+    .replace(/^en\//, '')
+
+  const pair = localePairs[cleanPath]
+  if (pair) return pair
+
+  // 尝试模糊匹配
+  for (const [key, value] of Object.entries(localePairs)) {
+    if (cleanPath === key || cleanPath.startsWith(key)) {
+      return value
+    }
+  }
+
+  return null
+}
+
+/**
+ * 判断页面语言（zh / en）
+ */
+function getPageLocale(pagePath: string): 'zh' | 'en' {
+  return pagePath.startsWith('zh/') ? 'zh' : 'en'
+}
+
+/**
+ * 生成完整 URL
+ */
+function buildUrl(path: string): string {
+  const cleanPath = path.startsWith('/') ? path : '/' + path
+  return HOSTNAME + cleanPath
+}
+
 export default defineConfig({
   title: 'Co-Cognition Lab',
   description: 'LLM × 人类认知：探索 AI 的盲区与人类的不可替代性',
@@ -129,6 +192,20 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'Co-Cognition Lab' }],
     ['meta', { property: 'og:title', content: 'Co-Cognition Lab — LLM × Human Cognition' }],
     ['meta', { property: 'og:description', content: 'Exploring the unknowns of AI and the irreplaceable nature of human cognition.' }],
+    // OG 图片相关静态标签
+    ['meta', { property: 'og:image', content: HOSTNAME + OG_IMAGE }],
+    ['meta', { property: 'og:image:width', content: OG_IMAGE_WIDTH }],
+    ['meta', { property: 'og:image:height', content: OG_IMAGE_HEIGHT }],
+    ['meta', { property: 'og:image:type', content: 'image/jpeg' }],
+    ['meta', { property: 'og:image:alt', content: 'Co-Cognition Lab — LLM × Human Cognition' }],
+    // Twitter 卡片标签
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@CoCognitionLab' }],
+    ['meta', { name: 'twitter:creator', content: '@CoCognitionLab' }],
+    ['meta', { name: 'twitter:title', content: 'Co-Cognition Lab — LLM × Human Cognition' }],
+    ['meta', { name: 'twitter:description', content: 'Exploring the unknowns of AI and the irreplaceable nature of human cognition.' }],
+    ['meta', { name: 'twitter:image', content: HOSTNAME + OG_IMAGE }],
+    ['meta', { name: 'twitter:image:alt', content: 'Co-Cognition Lab — LLM × Human Cognition' }],
   ],
   locales: {
     root: {
@@ -154,6 +231,7 @@ export default defineConfig({
     en: {
       label: 'English',
       lang: 'en-US',
+      link: '/en/',
       title: 'Co-Cognition Lab',
       description: 'LLM × Human Cognition: Exploring the Unknowns of AI',
       themeConfig: {
@@ -177,6 +255,77 @@ export default defineConfig({
     search: { provider: 'pagefind' },
     socialLinks: [{ icon: 'github', link: 'https://github.com/co-cognition-lab/llm-intuition' }],
     outline: { level: [2, 3] },
+  },
+  // ── 内置 Sitemap 生成 ──
+  sitemap: {
+    hostname: HOSTNAME,
+    lastmodDateOnly: false,
+    transformItems: (items) => {
+      // 为每个 sitemap 项设置合理的 changefreq 和 priority
+      return items.map((item) => {
+        const url = item.url || ''
+        // 首页/主文档优先级最高
+        if (url === '/zh/' || url === '/zh/main' || url === '/en/' || url === '/en/main') {
+          return { ...item, changefreq: 'weekly', priority: 1.0 }
+        }
+        // 分类目录页
+        if (url.endsWith('/')) {
+          return { ...item, changefreq: 'weekly', priority: 0.8 }
+        }
+        // 普通内容页
+        return { ...item, changefreq: 'monthly', priority: 0.6 }
+      })
+    },
+  },
+  // ── 动态 SEO 标签注入（hreflang + OG/Twitter 页面级标签） ──
+  transformPageData(pageData) {
+    const { relativePath } = pageData
+    const locale = getPageLocale(relativePath)
+    const localeUrls = getLocaleUrls(relativePath)
+
+    pageData.frontmatter.head ??= []
+
+    // ── 1. 注入 hreflang 交替链接 ──
+    if (localeUrls) {
+      const zhUrl = buildUrl(localeUrls.zh)
+      const enUrl = buildUrl(localeUrls.en)
+
+      pageData.frontmatter.head.push(
+        ['link', { rel: 'alternate', hreflang: 'zh', href: zhUrl }],
+        ['link', { rel: 'alternate', hreflang: 'en', href: enUrl }],
+        ['link', { rel: 'alternate', hreflang: 'x-default', href: zhUrl }],
+        // 语言/区域定位标签（帮助搜索引擎确认页面语言）
+        ['meta', { property: 'og:locale', content: locale === 'zh' ? 'zh_CN' : 'en_US' }],
+        ['meta', { property: 'og:locale:alternate', content: locale === 'zh' ? 'en_US' : 'zh_CN' }],
+      )
+    } else {
+      // 无对应翻译的页面，仅注入自身语言标签
+      const pageUrl = buildUrl('/' + relativePath.replace(/\.md$/, '').replace(/index$/, ''))
+      pageData.frontmatter.head.push(
+        ['link', { rel: 'alternate', hreflang: locale, href: pageUrl }],
+        ['meta', { property: 'og:locale', content: locale === 'zh' ? 'zh_CN' : 'en_US' }],
+      )
+    }
+
+    // ── 2. 注入页面级 OG 标签（覆盖全局静态值） ──
+    const pageTitle = pageData.title || (locale === 'zh' ? 'Co-Cognition Lab' : 'Co-Cognition Lab')
+    const pageDescription = pageData.frontmatter?.description
+      || pageData.description
+      || (locale === 'zh'
+        ? 'LLM × 人类认知：探索 AI 的盲区与人类的不可替代性'
+        : 'LLM × Human Cognition: Exploring the Unknowns of AI')
+    const pageUrl = buildUrl('/' + relativePath.replace(/\.md$/, '').replace(/index$/, ''))
+
+    pageData.frontmatter.head.push(
+      // Open Graph 动态标签
+      ['meta', { property: 'og:title', content: pageTitle }],
+      ['meta', { property: 'og:description', content: pageDescription }],
+      ['meta', { property: 'og:url', content: pageUrl }],
+      // Twitter 卡片动态标签
+      ['meta', { name: 'twitter:title', content: pageTitle }],
+      ['meta', { name: 'twitter:description', content: pageDescription }],
+      ['meta', { name: 'twitter:url', content: pageUrl }],
+    )
   },
   vite: { plugins: [pagefindPlugin()] },
   ignoreDeadLinks: true,
