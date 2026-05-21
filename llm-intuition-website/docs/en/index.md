@@ -45,7 +45,9 @@ While mapping the terrain, we identified a blind spot that cuts across all quadr
 
 One map, one anchor point, one field test, one gap filled — at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
 
-## Preprint
+## 📄 Preprint
+
+**Preprint Available** · OSF DOI: [`10.17605/OSF.IO/XSY39`](https://doi.org/10.17605/OSF.IO/XSY39) · CC BY 4.0
 
 Our paper is now publicly available:
 
