@@ -22,6 +22,8 @@ features:
     details: 四大路线 × 直觉可达性 × 退化风险排序——用理论工具分析全球 LLM 竞争终局。
     link: /zh/competition
     linkText: 阅读推演报告 →
+> 🟢 活文档 · 每周更新市场信号与退化追踪
+
   - icon: 🗺️
     title: Co-Cognition 全景图
     details: 跨学科域分类学框架、评分维度体系、交易区分析——绘制人类认知的完整版图。
