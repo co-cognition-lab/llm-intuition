@@ -1,3 +1,7 @@
+---
+prev: false
+---
+
 # LLM Global Competition Landscape v4
 
 > Intuition Blind Spots, Constitutive Degradation, and the Agent Economy
