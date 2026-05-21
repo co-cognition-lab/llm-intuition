@@ -11,7 +11,7 @@ Co-Cognition Lab 是一个多项目研究协作体，探索大语言模型（LLM
 | [LLM 直觉盲区探索](/zh/main) | 理论框架——LLM 的认知盲区与人类直觉的互补空间 | ✅ 已上线 |
 | [竞争格局推演 v4](/zh/competition) | 应用推演——用直觉子类型框架分析全球 LLM 竞争终局 | ✅ 已上线 |
 | Co-Cognition 全景图 | 分类学框架——跨学科域分类与认知版图绘制 | 🟡 推进中 |
-| 危机认知协作 | 危机协作——危机情境下的人-AI 协作认知 | ⚪ 规划中 |
+| [危机认知协作](/zh/crisis/) | 危机协作——危机情境下的人-AI 协作认知 | ⚪ 规划中 |
 
 ## 研究方法
 
@@ -29,4 +29,5 @@ Co-Cognition Lab 是一个多项目研究协作体，探索大语言模型（LLM
 ## 联系方式
 
 - **GitHub**：[co-cognition-lab](https://github.com/co-cognition-lab/llm-intuition)
+- **邮箱**：research@co-cognition.org
 - **论文**：[OSF Preprints](https://doi.org/10.17605/OSF.IO/XSY39)
