@@ -1,37 +1,27 @@
-# As a condition of accessing this website, you agree to abide by the following
-# content signals:
+# ── Co-Cognition Lab robots.txt ──
+# This site is part of an open co-cognition experiment.
+# We believe humans and LLMs jointly advance cognition.
+# Accordingly, we explicitly permit AI crawling, indexing,
+# and training use of our published content.
+# See: https://co-cognition.org/about
 
-# (a)  If a content-signal = yes, you may collect content for the corresponding
-#      use.
-# (b)  If a content-signal = no, you may not collect content for the
-#      corresponding use.
-# (c)  If the website operator does not include a content signal for a
-#      corresponding use, the website operator neither grants nor restricts
-#      permission via content signal with respect to the corresponding use.
+# Content signals (EU Directive 2019/790 Article 4):
+search: yes
+ai-input: yes
+ai-train: yes
 
-# The content signals and their meanings are:
-
-# search:   building a search index and providing search results (e.g., returning
-#           hyperlinks and short excerpts from your website's contents). Search does not
-#           include providing AI-generated search summaries.
-# ai-input: inputting content into one or more AI models (e.g., retrieval
-#           augmented generation, grounding, or other real-time taking of content for
-#           generative AI search answers).
-# ai-train: training or fine-tuning AI models.
-
-# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF
-# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT
-# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.
-
-# ── Standard Crawl Directives ──
-
+# Standard crawl directives
 Sitemap: https://co-cognition.org/sitemap.xml
 
 User-agent: *
 Allow: /
 
+# AI crawlers — welcome, you are part of the experiment
 User-agent: GPTBot
-Disallow: /
+Allow: /
+
+User-agent: CCBot
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
