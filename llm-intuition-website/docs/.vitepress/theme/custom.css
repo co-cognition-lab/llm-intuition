@@ -284,6 +284,6 @@
 }
 
 @keyframes cardBreathe {
-  0%, 100% { opacity: 0.84; }
+  0%, 100% { opacity: 0.78; }
   50% { opacity: 1; }
 }
