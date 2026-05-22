@@ -133,7 +133,7 @@ prev: false
 ## 相关阅读
 
 - **[LLM 与人类直觉：进化路线探索](/zh/main)**——本报告的理论基础（直觉四子类型、构成性退化、人优先协议等概念的完整推导）
-- **[完整推演报告](https://github.com/co-cognition-lab/llm-intuition)**——v4 全文（含详细论证、数据来源、反事实检验和三个待展开情景楔子）
+- **[完整推演报告](https://github.com/co-cognition-lab/llm-intuition/blob/main/llm_competition_v4_final.md)**——v4 全文（含详细论证、数据来源、反事实检验和三个待展开情景楔子）
 - **[预印本](https://doi.org/10.17605/OSF.IO/XSY39)**——llm-intuition 项目学术论文
 
 ---
