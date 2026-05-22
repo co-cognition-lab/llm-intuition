@@ -1,4 +1,4 @@
-name: Deploy VitePress to Pages
+name: Deploy & Notify
 
 on:
   push:
@@ -15,8 +15,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # ====== Job 1: 死链预检测（内部链接，--offline） ======
+  link-check:
+    runs-on: ubuntu-latest
+    name: Check Internal Links
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Link Checker (Internal Only)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --offline
+            --include-fragments
+            --format markdown
+            './llm-intuition-website/docs/**/*.md'
+          # 死链不阻断部署（仅报告），待规则稳定后可改为 true
+          fail: false
+          output: ./lychee/results.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Link Check Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: link-check-results
+          path: ./lychee/results.md
+
+  # ====== Job 2: Build ======
   build:
     runs-on: ubuntu-latest
+    needs: link-check
     defaults:
       run:
         working-directory: llm-intuition-website
@@ -25,9 +55,55 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install
+          cache: npm
+          cache-dependency-path: llm-intuition-website/package-lock.json
+      - run: npm ci
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: llm-intuition-website/docs/.vitepress/dist
-      - uses: actions/deploy-pages@v4
+
+  # ====== Job 3: Deploy ======
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ====== Job 4: ntfy.sh 通知 ======
+  notify:
+    name: Push Notification
+    needs: deploy
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send ntfy.sh notification
+        run: |
+          case "${{ needs.deploy.result }}" in
+            success)
+              TITLE="✅ Co-Cognition Lab Deployed"
+              PRIORITY="default"; TAGS="white_check_mark,rocket" ;;
+            failure)
+              TITLE="❌ Deploy Failed — Need Fix"
+              PRIORITY="urgent"; TAGS="x,warning" ;;
+            *)
+              TITLE="⚠️ Deploy Cancelled"
+              PRIORITY="high"; TAGS="warning" ;;
+          esac
+
+          curl -s -X POST "https://ntfy.sh/${{ secrets.NTFY_TOPIC }}" \
+            -H "Title: $TITLE" \
+            -H "Priority: $PRIORITY" \
+            -H "Tags: $TAGS" \
+            -H "Click: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -d "$TITLE
+          Site: ${{ needs.deploy.outputs.page_url || 'N/A' }}
+          Branch: ${{ github.ref_name }}  Commit: ${{ github.sha }}
+          Author: ${{ github.actor }}"

@@ -1,0 +1,42 @@
+name: External Link Check (Weekly)
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"     # 每周一 UTC 6:00
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  check-external-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check External Links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --verbose
+            --no-progress
+            --timeout 60
+            --max-concurrency 8
+            --format markdown
+            './llm-intuition-website/docs/**/*.md'
+          fail: false
+          output: ./lychee/external-results.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Issue on Failure
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "[Weekly] External Link Check Failed"
+          content-filepath: ./lychee/external-results.md
+          labels: |
+            links
+            automated
