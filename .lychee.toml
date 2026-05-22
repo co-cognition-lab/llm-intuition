@@ -1,0 +1,38 @@
+# Co-Cognition Lab 死链检测配置
+# 文档：https://lychee.cli.rs/
+
+verbose = true
+no_progress = true
+format = "markdown"
+
+# 超时与并发
+timeout = 30
+max_concurrency = 14
+host_concurrency = 10
+host_request_interval = "50ms"
+
+# 文件类型
+extensions = ["md", "html"]
+
+# 缓存（外部链接巡检专用）
+cache = true
+max_cache_age = "2d"
+cache_exclude_status = ["429", "500..502"]
+
+# 接受的状态码
+accept = ["200", "429", "403"]
+
+# 排除
+exclude = [
+    "localhost",
+    "127\\.0\\.0\\.1",
+    "^mailto:",
+    "linkedin\\.com",
+    "twitter\\.com",
+    "x\\.com",
+    "facebook\\.com",
+    "^#",
+]
+
+# 跳过所有 mailto: 链接
+exclude_mail = true
