@@ -14,23 +14,27 @@ function initHeroFlow() {
   const hero = document.querySelector('.VPHero')
   if (!hero) return
 
-  const nameEl = hero.querySelector('.name')
-  const textEl = hero.querySelector('.text')
-  const taglineEl = hero.querySelector('.tagline')
-  const targets = [nameEl, textEl, taglineEl].filter(Boolean)
+  // Collect all hero text elements: .name, .text, .tagline
+  const targets = [
+    hero.querySelector('.name'),
+    hero.querySelector('.text'),
+    hero.querySelector('.tagline')
+  ].filter(Boolean)
   if (!targets.length) return
 
-  // Split text into per-character spans
+  // Split each target's text into per-character spans;
+  // collect all created spans into a flat array for mouse tracking.
+  const flowChars = []
+
   for (const el of targets) {
     const text = el.textContent || ''
     el.innerHTML = ''
     for (const char of text) {
       const span = document.createElement('span')
       if (char === ' ') {
-        // Preserve word spacing, make it wide enough to be a natural gap
         span.innerHTML = '&nbsp;'
         span.style.display = 'inline-block'
-        span.style.width = '0.3em' // matched to VitePress hero letter-spacing
+        span.style.width = '0.3em'
         span.setAttribute('aria-hidden', 'true')
       } else {
         span.textContent = char
@@ -38,10 +42,10 @@ function initHeroFlow() {
         span.style.transition = 'transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)'
       }
       el.appendChild(span)
+      flowChars.push(span)
     }
   }
 
-  const flowChars = hero.querySelectorAll('.flow-char, .name > span, .text > span')
   if (!flowChars.length) return
 
   document.addEventListener('mousemove', (e) => {
@@ -66,11 +70,11 @@ function initHeroFlow() {
   })
 }
 
-// Run after DOM + Vue hydration
+// Run after DOM + Vue hydration (200ms to ensure VitePress finishes rendering)
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => setTimeout(initHeroFlow, 100))
+  document.addEventListener('DOMContentLoaded', () => setTimeout(initHeroFlow, 200))
 } else {
-  setTimeout(initHeroFlow, 100)
+  setTimeout(initHeroFlow, 200)
 }
 
 })(); } // end SSR guard
