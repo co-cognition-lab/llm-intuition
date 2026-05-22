@@ -1,5 +1,8 @@
 // flow.js — Plan A: Hero title character-level mouse repel
 // Only on desktop (hover: hover). Pure JS, zero dependencies.
+// Wrapped for SSR safety (VitePress builds in Node where document is undefined)
+if (typeof document !== 'undefined') { (() => {
+"use strict";
 
 const RADIUS = 80      // mouse influence radius (px)
 const MAX_OFFSET = 4   // max character displacement (px)
@@ -68,3 +71,5 @@ if (document.readyState === 'loading') {
 } else {
   setTimeout(initHeroFlow, 100)
 }
+
+})(); } // end SSR guard
