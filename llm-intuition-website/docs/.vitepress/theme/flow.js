@@ -16,7 +16,8 @@ function initHeroFlow() {
 
   const nameEl = hero.querySelector('.name')
   const textEl = hero.querySelector('.text')
-  const targets = [nameEl, textEl].filter(Boolean)
+  const taglineEl = hero.querySelector('.tagline')
+  const targets = [nameEl, textEl, taglineEl].filter(Boolean)
   if (!targets.length) return
 
   // Split text into per-character spans
