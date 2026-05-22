@@ -269,21 +269,29 @@
          4 张卡片错相（stagger），暗示它们是活着的整体
    ============================================ */
 @media (hover: none) {
-  .VPFeatures .item .details {
-    animation: cardBreathe 10s ease-in-out infinite;
+    .VPFeatures .item .details {
+      animation: cardBreathe 5.5s ease-in-out infinite;
+    }
+    .VPFeatures .item:nth-child(2) .details {
+      animation-delay: 1.375s;
+    }
+    .VPFeatures .item:nth-child(3) .details {
+      animation-delay: 2.75s;
+    }
+    .VPFeatures .item:nth-child(4) .details {
+      animation-delay: 4.125s;
+    }
   }
-  .VPFeatures .item:nth-child(2) .details {
-    animation-delay: 2.5s;
-  }
-  .VPFeatures .item:nth-child(3) .details {
-    animation-delay: 5s;
-  }
-  .VPFeatures .item:nth-child(4) .details {
-    animation-delay: 7.5s;
-  }
-}
 
-@keyframes cardBreathe {
-  0%, 100% { opacity: 0.78; }
-  50% { opacity: 1; }
-}
+  @keyframes cardBreathe {
+    0%, 100% {
+      opacity: 0.72;
+      letter-spacing: 0;
+      filter: saturate(0.85);
+    }
+    50% {
+      opacity: 1;
+      letter-spacing: 0.015em;
+      filter: saturate(1);
+    }
+  }
