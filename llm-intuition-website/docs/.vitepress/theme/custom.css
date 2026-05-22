@@ -261,3 +261,29 @@
    - prefers-reduced-motion 未单独处理，因本动画已极为克制
      （0.3s 微动 + 8s 慢速流动），符合无障碍最佳实践。
    ============================================ */
+
+/* ============================================
+   Plan C：移动端卡片描述"呼吸"动画
+   条件：触屏设备（hover: none）
+   效果：每张卡片描述文字极缓慢地呼吸
+         4 张卡片错相（stagger），暗示它们是活着的整体
+   ============================================ */
+@media (hover: none) {
+  .VPFeatures .item .details {
+    animation: cardBreathe 10s ease-in-out infinite;
+  }
+  .VPFeatures .item:nth-child(2) .details {
+    animation-delay: 2.5s;
+  }
+  .VPFeatures .item:nth-child(3) .details {
+    animation-delay: 5s;
+  }
+  .VPFeatures .item:nth-child(4) .details {
+    animation-delay: 7.5s;
+  }
+}
+
+@keyframes cardBreathe {
+  0%, 100% { opacity: 0.84; }
+  50% { opacity: 1; }
+}
