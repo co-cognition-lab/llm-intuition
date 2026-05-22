@@ -55,9 +55,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-          cache-dependency-path: llm-intuition-website/package-lock.json
-      - run: npm ci
+      - run: npm install
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
         with:
