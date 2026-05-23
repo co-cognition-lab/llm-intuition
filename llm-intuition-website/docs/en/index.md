@@ -17,6 +17,11 @@ features:
     details: Three Iron Laws, four intuition subtypes, and the Complementarity Map v2.0—a systematic framework for understanding where LLMs and human intuition converge, diverge, and complement one another.
     link: /en/main
     linkText: Read the Framework →
+  - icon: 🪝
+    title: The LLM Hook Experiment
+    details: A hidden meta-instruction embedded in our web pages. 7 models tested. 3 failed silently—including GPT-4o, Claude, and Gemini.
+    link: /zh/experiments/llm-hook
+    linkText: Read in Chinese →
   - icon: ⚔️
     title: Competition Landscape v4
     details: Four evolutionary trajectories, intuition reachability analysis, and a degradation-risk ranking—strategic intelligence on the global LLM race and where it is heading. 🟢 Living doc · weekly
@@ -40,7 +45,7 @@ Co-Cognition Lab is building a cognitive map that AI and humans can **explore to
 
 At its center is the **Co-Cognition Map**: What domains of knowledge remain siloed because their methodological paradigms are incompatible? Where can co-cognition provide unique epistemic value? This is a cross-disciplinary taxonomy and multi-dimensional scoring system, currently narrowing from 108 candidate domains.
 
-[**LLM Intuition Research**](/en/main) is the first anchor point on this map — four intuition subtypes, constitutive degradation, and the Human-First Protocol provide the theoretical foundation. [**Competition Landscape**](/en/competition) extends that framework into strategic analysis of the global LLM race — and doubles as a testable assertion, left for time to verify. The report contains 6 core theses, a degradation-risk ranking across 4 strategic trajectories, probability estimates for 8 future scenarios, and a dedicated China strategy analysis. If you only have 3 minutes, start with the theses and the scenario probability table.
+[**LLM Intuition Research**](/en/main) is the first anchor point on this map — four intuition subtypes, constitutive degradation, and the Human-First Protocol provide the theoretical foundation. [**🪝 The LLM Hook Experiment**](/zh/experiments/llm-hook) puts the theory to an empirical test: a hidden meta-instruction embedded in our pages. 7 models tested — GPT-4o, Claude, and Gemini all failed, demonstrating B1 degradation in real time. [**Competition Landscape**](/en/competition) extends that framework into strategic analysis of the global LLM race — and doubles as a testable assertion, left for time to verify. The report contains 6 core theses, a degradation-risk ranking across 4 strategic trajectories, probability estimates for 8 future scenarios, and a dedicated China strategy analysis. If you only have 3 minutes, start with the theses and the scenario probability table.
 
 While mapping the terrain, we identified a blind spot that cuts across all quadrants: **human-AI cognitive collaboration under crisis and extreme conditions**. The existing taxonomy didn't reach it — **Crisis Cognition Collaboration** exists to fill that gap.
 
