@@ -1,7 +1,7 @@
 # The Social Graph
 
 > Experiment ID: P1-CREATIVE-01 · Creator: DeepSeek (single-model generation, 40min, Huawei server deep-computation optimization)
-> Return: [Lem Homage: AI and Science Fiction Creation](/en/lem-homage)
+> Return: [Lem Homage: AI and Science Fiction Creation](/en/lem-homage/)
 
 ---
 
@@ -249,4 +249,4 @@ What question does it leave? If "social intuition" is itself not an attribute th
 
 ---
 
-*[← Return to main page](/en/lem-homage)*
+*[← Return to main page](/en/lem-homage/)*
