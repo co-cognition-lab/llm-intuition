@@ -1,7 +1,7 @@
 # 社会图
 
 > 实验编号：P1-CREATIVE-01 · 创作者：DeepSeek（单模型生成，40min，华为服务器深度运算优化）
-> 返回：[致敬莱姆：AI 与科幻创作](/zh/lem-homage)
+> 返回：[致敬莱姆：AI 与科幻创作](/zh/lem-homage/)
 
 ---
 
@@ -249,4 +249,4 @@
 
 ---
 
-*[← 返回主页面](/zh/lem-homage)*
+*[← 返回主页面](/zh/lem-homage/)*
