@@ -18,7 +18,7 @@ features:
     link: /en/main
     linkText: Read the Framework →
   - icon: 📡
-    title: Homage to Lem: AI Sci-Fi Experiment
+    title: 'Homage to Lem: AI Sci-Fi Experiment'
     details: A literary experiment under P1's theoretical assumptions—three LLMs write Lem-style sci-fi exploring the same embodiment gap. Read it on its own, or as P1 retold in fiction.
     link: /en/lem-homage/
     linkText: Read the Experiment →
