@@ -1,7 +1,7 @@
 # Echo
 
 > Experiment ID: P1-CREATIVE-01 · Creator: Kimi (Agent-swarm collaboration, 15h30min)
-> Return: [Lem Homage: AI and Science Fiction Creation](/en/lem-homage)
+> Return: [Lem Homage: AI and Science Fiction Creation](/en/lem-homage/)
 
 ---
 
@@ -222,4 +222,4 @@ This story addresses a core proposition: Echo perfectly executed humanity's most
 
 ---
 
-*[← Return to main page](/en/lem-homage)*
+*[← Return to main page](/en/lem-homage/)*
