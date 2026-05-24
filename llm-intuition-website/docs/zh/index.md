@@ -56,6 +56,39 @@ Co-Cognition Lab 想做一件事：绘制一张 AI 与人类可以**共同探索
 
 从一张图，到一个支点，到一次检验，到填补一个空白——每一步都在问同一个问题：**在一个越来越依赖智能机器的世界里，人类的理解力还能往哪个方向走？**
 
+<p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 全景图正在扫描的领域</p>
+<div class="domain-grid" aria-hidden="true">
+  <span>量子因果</span>
+  <span>生态网络学</span>
+  <span>遗传编码学</span>
+  <span>气候经济学</span>
+  <span>神经法学</span>
+  <span>行为流行病学</span>
+  <span>认知神经人类学</span>
+  <span>微生物组社会学</span>
+  <span>神经美学</span>
+  <span>演化伦理学</span>
+  <span>地质叙事学</span>
+  <span>目的论生物学</span>
+  <span>环境伦理学</span>
+  <span>软体机器人学</span>
+  <span>计算法学</span>
+  <span>政治机制设计</span>
+  <span>语言学信息论</span>
+  <span>社会学网络科学</span>
+  <span>经济史学</span>
+  <span>行为人机交互</span>
+  <span>经济软件工程</span>
+  <span>信息哲学</span>
+  <span>计算心灵哲学</span>
+  <span>算法伦理学</span>
+  <span>复杂性认识论</span>
+  <span>数学美学</span>
+  <span>基因组信息论</span>
+  <span>音乐信息学</span>
+  <span>口头传统信息学</span>
+  <span>能源生态学</span>
+</div>
 ## 📄 预印本
 
 **预印本已发布** · OSF DOI: [`10.17605/OSF.IO/XSY39`](https://doi.org/10.17605/OSF.IO/XSY39) · CC BY 4.0
