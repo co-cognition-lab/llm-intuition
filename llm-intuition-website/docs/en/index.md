@@ -56,6 +56,39 @@ While mapping the terrain, we identified a blind spot that cuts across all quadr
 
 One map, one anchor point, one field test, one gap filled — at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
 
+<p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 Domains Being Scanned</p>
+<div class="domain-grid" aria-hidden="true">
+  <span>Quantum Causality</span>
+  <span>Ecological Network Science</span>
+  <span>Genetic Coding Theory</span>
+  <span>Climate Economics</span>
+  <span>Neurolaw</span>
+  <span>Behavioral Epidemiology</span>
+  <span>Cognitive Neuroanthropology</span>
+  <span>Microbiome Sociology</span>
+  <span>Neuroaesthetics</span>
+  <span>Evolutionary Ethics</span>
+  <span>Geological Narratology</span>
+  <span>Teleological Biology</span>
+  <span>Environmental Ethics</span>
+  <span>Soft Robotics</span>
+  <span>Computational Law</span>
+  <span>Political Mechanism Design</span>
+  <span>Linguistic Information Theory</span>
+  <span>Sociological Network Science</span>
+  <span>Economic History</span>
+  <span>Behavioral HCI</span>
+  <span>Economic Software Engineering</span>
+  <span>Information Philosophy</span>
+  <span>Computational Philosophy of Mind</span>
+  <span>Algorithmic Ethics</span>
+  <span>Complexity Epistemology</span>
+  <span>Mathematical Aesthetics</span>
+  <span>Genomic Information Theory</span>
+  <span>Music Informatics</span>
+  <span>Oral Tradition Informatics</span>
+  <span>Energy Ecology</span>
+</div>
 ## 📄 Preprint
 
 **Preprint Available** · OSF DOI: [`10.17605/OSF.IO/XSY39`](https://doi.org/10.17605/OSF.IO/XSY39) · CC BY 4.0
