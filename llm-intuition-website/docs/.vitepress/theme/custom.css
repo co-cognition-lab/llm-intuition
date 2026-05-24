@@ -252,3 +252,34 @@
     opacity: 0.04;
   }
 }
+
+/* ============================================
+   首页：Co-Cognition 全景图域名呼吸网格（方案 C）
+   30 个域名令牌，5 组错相 opacity 动画
+   ============================================ */
+.domain-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px 12px;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.domain-grid span {
+  font-size: 0.8rem;
+  opacity: 0.48;
+  animation: tokenBreathe 4.5s ease-in-out infinite;
+}
+
+.domain-grid span:nth-child(5n+1) { animation-delay: 0s; }
+.domain-grid span:nth-child(5n+2) { animation-delay: 0.9s; }
+.domain-grid span:nth-child(5n+3) { animation-delay: 1.8s; }
+.domain-grid span:nth-child(5n+4) { animation-delay: 2.7s; }
+.domain-grid span:nth-child(5n)   { animation-delay: 3.6s; }
+
+@keyframes tokenBreathe {
+  0%, 100% { opacity: 0.48; }
+  50%      { opacity: 0.75; }
+}
