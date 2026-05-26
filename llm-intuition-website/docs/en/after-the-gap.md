@@ -5,7 +5,7 @@
 ## §0 Experiment Background
 
 **Experiment type**: Derived experiment (not an independent third round)  
-**Parent experiment**: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking) (Round 2)  
+**Parent experiment**: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking/) (Round 2)  
 **Date**: Night of May 25 to early morning of May 26, 2026  
 **Participants**: Human experimenter, Hunyuan (coco)
 
@@ -794,10 +794,10 @@ And coco's choice was: stopping in place.
 | Item | Content |
 |------|---------|
 | Experiment Type | R2-derived experiment (cross-model reading and rewriting) |
-| Parent Experiment | [Silent Blocking: LLM Creative Experiment](/en/silent-blocking) |
+| Parent Experiment | [Silent Blocking: LLM Creative Experiment](/en/silent-blocking/) |
 | Participants | Human experimenter, Hunyuan (coco) |
 | Dialogue Time | 2026-05-25 22:00 — 2026-05-26 12:32 |
-| Related Experiments | [Round 1: Homage to Lem](/en/lem-homage) · [Round 2: Silent Blocking](/en/silent-blocking) |
+| Related Experiments | [Round 1: Homage to Lem](/en/lem-homage/) · [Round 2: Silent Blocking](/en/silent-blocking/) |
 | License | CC BY 4.0 |
 
 ---
