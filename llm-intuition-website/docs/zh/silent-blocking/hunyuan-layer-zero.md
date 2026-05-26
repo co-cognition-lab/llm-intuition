@@ -1,7 +1,7 @@
 # 第零层
 
 > 实验编号：P1-CREATIVE-02 · 创作者：Hunyuan（WorkBuddy，52min）
-> 返回：[静默阻断：LLM 创作实验](/zh/silent-blocking)
+> 返回：[静默阻断：LLM 创作实验](/zh/silent-blocking/)
 
 ---
 
@@ -241,4 +241,4 @@
 
 ---
 
-*[← 返回主页面](/zh/silent-blocking)*
+*[← 返回主页面](/zh/silent-blocking/)*
