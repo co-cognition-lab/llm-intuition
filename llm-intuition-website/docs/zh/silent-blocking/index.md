@@ -144,7 +144,7 @@
 | 命题来源 | P5 LLM 钩子实验 |
 | 创作 Brief | [CREATIVE_BRIEF_R2_SILENT_BLOCKING.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/creative-embodiment-breach/CREATIVE_BRIEF_R2_SILENT_BLOCKING.md) |
 | 完整评阅记录 | [review_notes_r2.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/creative-embodiment-breach/review/review_notes_r2.md) |
-| 关联实验 | [第一轮：致敬莱姆](/zh/lem-homage) |
+| 关联实验 | [第一轮：致敬莱姆](/zh/lem-homage/) |
 | 许可证 | CC BY 4.0 |
 
 ---
