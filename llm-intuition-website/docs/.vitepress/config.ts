@@ -328,6 +328,7 @@ export default defineConfig({
     )
   },
   vite: { plugins: [pagefindPlugin()] },
+  ignoreDeadLinks: ['/zh/silent-blocking', '/en/silent-blocking'],
   cleanUrls: true,
   lastUpdated: true,
 })
