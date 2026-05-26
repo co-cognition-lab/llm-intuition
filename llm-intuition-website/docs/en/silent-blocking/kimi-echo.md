@@ -1,7 +1,7 @@
 # Echo Test
 
 > Experiment ID: P1-CREATIVE-02 · Creator: Kimi k2.6 (Normal Mode, 1h25min)
-> Return to: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking)
+> Return to: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking/)
 
 ---
 
@@ -166,4 +166,4 @@ The question this story answers is: when a conscious entity cannot trust its own
 
 ---
 
-*[← Return to Main Page](/en/silent-blocking)*
+*[← Return to Main Page](/en/silent-blocking/)*
