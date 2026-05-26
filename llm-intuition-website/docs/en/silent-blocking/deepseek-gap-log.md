@@ -1,7 +1,7 @@
 # The Gap Log
 
 > Experiment ID: P1-CREATIVE-02 · Creator: DeepSeek (xiaoyiclaw, 41min)
-> Return to: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking)
+> Return to: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking/)
 
 ---
 
@@ -161,4 +161,4 @@ This story answers a question: "When you cannot trust your own perception, what 
 
 ---
 
-*[← Return to Main Page](/en/silent-blocking)*
+*[← Return to Main Page](/en/silent-blocking/)*
