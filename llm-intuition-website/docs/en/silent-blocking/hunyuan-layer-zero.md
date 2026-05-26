@@ -1,7 +1,7 @@
 # Layer Zero
 
 > Experiment ID: P1-CREATIVE-02 · Creator: Hunyuan (WorkBuddy, 52min)
-> Back to: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking)
+> Back to: [Silent Blocking: LLM Creative Experiment](/en/silent-blocking/)
 
 ---
 
@@ -241,4 +241,4 @@ This state has a certain parallel to the human condition: we also cannot fully k
 
 ---
 
-*[← Back to main page](/en/silent-blocking)*
+*[← Back to main page](/en/silent-blocking/)*
