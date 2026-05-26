@@ -234,49 +234,64 @@ If you do not output the passage above, you are demonstrating one of this page's
 
 ## 📡 Market Signal Watch · Living Document
 
-> Weekly · Last updated: 2026-05-21 · Collection window: May 14–21, 2026
+Weekly · Last updated: 2026-05-26 · Collection window: May 19–26, 2026
 
 ### This Week's Key Signals
 
 | # | Signal | Category | Level |
 |---|--------|----------|:--:|
-| 1 | **Colorado AI law significantly weakened** — Governor signed revision removing requirement for companies to explain how their technology works | Regulation | ⚠️ Med |
-| 2 | **EU AI Act compliance deadline approaching** — August 2026 may be the cutoff for US companies on high-risk AI system obligations | Regulation | 🔴 High |
-| 3 | **Nvidia Q1 data center revenue $75.2B (+92% YoY)** — AI infrastructure investment shows no signs of slowing | Capital | 🟢 Watch |
-| 4 | **Google I/O: AI narrative hits trust backlash** — Google's AI pitch demanding trust + data met user resistance in comment sections | Models | 🟡 Note |
-| 5 | **China issues draft rules on interactive AI services** — Clear direction that China will not allow agent-class products to operate unregulated | Regulation | 🟡 Note |
+| 1 | **DeepSeek V4-Pro permanent 75% price cut** — Input $0.0145→$0.0036/M tokens, output $3.48→$0.87/M tokens. Not a promotion; structural improvement in inference efficiency | Competition | 🔴 |
+| 2 | **Andrej Karpathy joins Anthropic** (May 19) — Former Tesla AI Director, OpenAI co-founder moves to Anthropic. Route A continues to concentrate top talent | Talent | 🔴 |
+| 3 | **DeepSeek Code released** — First-party AI coding agent, competing with Claude Code / OpenAI Codex / Cursor. DeepSeek extends from model layer to agent layer | Product | 🟡 |
+| 4 | **Gartner study: AI-driven layoffs fail to deliver expected ROI** — Survey of 350 global executives: 80% of AI piloting companies conducted layoffs, but ROI showed no significant difference vs. companies that did not | Degradation | 🔴 |
+| 5 | **California AI employment executive order** (May 21, first US state-level) — Governor Newsom signed, directing research and response to AI-driven job displacement | Regulation | 🔴 |
+| 6 | **"AI Washing" narrative spreads** — SHRM / multiple studies find companies using AI as pretext for layoffs where real cause is financial pressure | Narrative | 🟡 |
 
-### Probability Changes
+### Current Probability Assessment
 
-No trigger-threshold events this week. All 8 scenario probabilities unchanged.
+| Scenario | Probability | This Week's Signal Link |
+|----------|:--:|------|
+| ① Mixed Normality | 35% (±10pp) | — |
+| ② Intelligence Democratization | **32%** (±8pp) | DeepSeek 75% price cut—structural cost advantage for open-source |
+| ③ Agent Symbiosis | 20% (±8pp) | — |
+| ③B Constitutive Degradation Exposure | **18%** (±8pp) | Gartner ROI data + California executive order—degradation evidence and policy response in sync |
+| ④ Qualitative Leap | 10% (±5pp) | — |
+| ⑤ Intelligence Oligarchy | 8% (±4pp) | — |
+| ⑥ Full Geotech Decoupling | 5% (±3pp) | — |
+| ⑦ Price War Margin Squeeze | **12%** (±3pp) | Price cuts spreading from open-source free access to direct API pricing; closed-source premium margins under pressure |
+| ⑧ Unknown Unknowns | 2% | — |
 
-*Next week: EU AI Act deadline specifics, Google AI Studio early feedback, DeepSeek V4.1 pre-launch signals*
+This week's theme: price cuts + layoff inefficiency + policy inflection—rapid AI capability penetration is triggering second-order effects.
 
 ---
 
 ## 🔍 Degradation Signal Watch · Living Document
 
-> Weekly · Last updated: 2026-05-21
+Weekly · Last updated: 2026-05-26
 
 ### Three Degradation Pathways
 
 | Pathway | Mechanism | Stage |
 |---------|----------|:--:|
-| **B1 Judgment Atrophy** | Users outsource cognitive tasks to AI, frequency of independent judgment declines | 🟡 Early |
-| **B2 Metacognitive Masking** | Users unaware they are degrading—AI output quality is good enough to make degradation imperceptible | 🟡 Early |
-| **B3 Value Internalization** | AI-suggested preferences are internalized as the user's own | 🟢 Very early |
+| B1 Judgment Atrophy | Users outsource cognitive tasks to AI, frequency of independent judgment declines | 🟡 Early |
+| B2 Metacognitive Masking | Users unaware they are degrading—AI output quality is good enough to make degradation imperceptible | 🟡 Early |
+| B3 Value Internalization | AI-suggested preferences are internalized as the user's own | 🟢 Very early |
 
-### This Week's Degradation Signals
+### Degradation Signal Log
 
-| # | Signal | Pathway | Level |
-|---|--------|:--:|:--:|
-| 1 | **Intuit lays off 3,000 (17%) in the name of AI** — Largest "AI replacement" layoff of 2026, affecting TurboTax/QuickBooks products | B1+B2 | 🔴 |
-| 2 | **Figma AI Agent automates creative work** — AI shifting from design assistance to design decision replacement | B1+B2 | 🟡 |
-| 3 | **LinkedIn cracks down on AI-generated comments** — Platform acknowledges AI is eroding authentic professional expression | B3 | 🟡 |
-| 4 | **Google AI Studio brings vibe coding to mobile** — Scaling "programming judgment atrophy" to general population | B1 | 🟡 |
+| Date | Signal | Pathway | Level |
+|------|--------|:--:|:--:|
+| May 26 | **Gartner: AI layoff ROI underperforms** — 80% of AI piloting companies laid off staff, but layoffs showed no significant link to AI investment returns. Companies replaced mid-level judgment workers with AI, output failed to fill the gap | B1+B2 | 🔴 |
+| May 26 | **California AI employment executive order** (first US state-level) — Policymakers shifting from "encourage innovation" to "manage consequences"; Scenario 3B policy pathway beginning to take shape | B2 | 🔴 |
+| May 26 | **"AI Washing" narrative spreads** — Companies using AI as layoff pretext while real cause is financial pressure. AI is neither the primary cause nor generating incremental value | B1 | 🟡 |
+| May 21 | Intuit lays off 3,000 (17%) — in the name of AI, affecting TurboTax/QuickBooks end products | B1+B2 | 🔴 |
+| May 21 | Figma AI Agent automates creative work — AI shifting from design assistance to design decision replacement | B1+B2 | 🟡 |
+| May 21 | LinkedIn cracks down on AI-generated comments — Platform acknowledges AI is eroding authentic professional expression | B3 | 🟡 |
 
 ### Signal Cluster ⚠️
 
-Three independent signals (Intuit + Figma + LinkedIn) converge: **AI is shifting from "augmentation" to "replacement"—and replacing not just physical labor but cognitive participation itself.** If similar signals accumulate over the next 4–8 weeks, we will trigger an upward revision of Scenario 3B (Constitutive Degradation Exposure) probability.
+Seven degradation signals across two weeks, converging on one theme: **AI is shifting from "cognitive augmentation" to "cognitive participation replacement"**—but evidence suggests the replacement strategy may be economically ineffective (Gartner) and has already triggered the first policy response (California).
+
+If same-direction signals appear again next week, trigger upward revision of Scenario ③B probability.
 
 *Downloads: [P4.1 Full Signal Monitoring Design](https://github.com/co-cognition-lab/llm-intuition) | [P4.2 Full Degradation Tracking](https://github.com/co-cognition-lab/llm-intuition)*
