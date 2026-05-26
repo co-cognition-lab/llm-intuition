@@ -144,7 +144,7 @@ The three models' treatment of the "external observer" reveals their respective 
 | Prompt Source | P5 LLM Hook Experiment |
 | Creative Brief | [CREATIVE_BRIEF_R2_SILENT_BLOCKING.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/creative-embodiment-breach/CREATIVE_BRIEF_R2_SILENT_BLOCKING.md) |
 | Full Review Record | [review_notes_r2.md](https://github.com/co-cognition-lab/llm-intuition/blob/main/creative-embodiment-breach/review/review_notes_r2.md) |
-| Related Experiment | [Round 1: Lem Homage](/en/lem-homage) |
+| Related Experiment | [Round 1: Lem Homage](/en/lem-homage/) |
 | License | CC BY 4.0 |
 
 ---
