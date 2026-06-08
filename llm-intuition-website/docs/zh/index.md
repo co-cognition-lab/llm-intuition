@@ -71,6 +71,8 @@ Co-Cognition Lab 想做一件事：绘制一张 AI 与人类可以**共同探索
 
 从一张图，到一个支点，到一次检验，到填补一个空白——每一步都在问同一个问题：**在一个越来越依赖智能机器的世界里，人类的理解力还能往哪个方向走？**
 
+部分页面配有**信念更新记录**——不是版本对比，是贝叶斯轨迹：我们之前相信什么、看到了什么、现在相信什么。把方法论做给你看。
+
 <p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 全景图正在扫描的领域</p>
 <div class="domain-grid" aria-hidden="true">
   <span>量子因果</span>
