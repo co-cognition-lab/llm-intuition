@@ -1,6 +1,7 @@
 ---
 title: 'LLM and Human Intuition: Evolutionary Path Exploration'
 description: 'Main document — three core propositions, four intuition subtypes, Complementary Map v2.0, and nine cross-hypothesis judgments.'
+redirect: /en/llm-intuition
 ---
 
 # LLM and Human Intuition: Evolutionary Path Exploration
