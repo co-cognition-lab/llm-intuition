@@ -71,6 +71,8 @@ While mapping the terrain, we identified a blind spot that cuts across all quadr
 
 One map, one anchor point, one field test, one gap filled — at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
 
+Some pages include a **Belief Update Log** — not a version diff, but a Bayesian trajectory: what we believed, what we observed, what we believe now. The method, demonstrated rather than described.
+
 <p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 Domains Being Scanned</p>
 <div class="domain-grid" aria-hidden="true">
   <span>Quantum Causality</span>
