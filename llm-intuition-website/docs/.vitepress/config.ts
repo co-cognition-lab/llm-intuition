@@ -9,7 +9,7 @@ const OG_IMAGE_HEIGHT = '630'
 
 // ── 共享导航项定义（链接按 locale 不同） ──
 const zhNav = [
-  { text: 'LLM 直觉盲区', link: '/zh/main' },
+  { text: 'LLM 直觉盲区', link: '/zh/llm-intuition' },
   { text: '竞争格局', link: '/zh/competition' },
   { text: 'Co-Cognition 全景图', link: '/zh/cocognition/' },
   { text: '危机认知', link: '/zh/crisis/' },
@@ -17,7 +17,7 @@ const zhNav = [
 ]
 
 const enNav = [
-  { text: 'LLM Intuition', link: '/en/main' },
+  { text: 'LLM Intuition', link: '/en/llm-intuition' },
   { text: 'Competition', link: '/en/competition' },
   { text: 'Co-Cognition Map', link: '/en/cocognition/' },
   { text: 'Crisis Cognition', link: '/en/crisis/' },
@@ -30,7 +30,7 @@ const zhSidebar = [
     text: 'LLM 与人类直觉',
     collapsed: false,
     items: [
-      { text: '主文档', link: '/zh/main' },
+      { text: '主文档', link: '/zh/llm-intuition' },
       { text: '执行摘要', link: '/zh/summary' },
       { text: '综合输出', link: '/zh/synthesis' },
       { text: '跨文化附录', link: '/zh/cross-cultural' },
@@ -80,7 +80,7 @@ const enSidebar = [
     text: 'LLM & Human Intuition',
     collapsed: false,
     items: [
-      { text: 'Main Document', link: '/en/main' },
+      { text: 'Main Document', link: '/en/llm-intuition' },
       { text: 'Executive Summary', link: '/en/summary' },
       { text: 'Synthesis', link: '/en/synthesis' },
       { text: 'Cross-Cultural', link: '/en/cross-cultural' },
@@ -128,7 +128,7 @@ const enSidebar = [
 // ── 多语言 URL 映射表（用于 hreflang 注入） ──
 // 键为路径模板（去掉 /zh/ 或 /en/ 前缀），值为 { zh: 完整路径, en: 完整路径 }
 const localePairs: Record<string, { zh: string; en: string }> = {
-  'main': { zh: '/zh/main', en: '/en/main' },
+  'main': { zh: '/zh/llm-intuition', en: '/en/llm-intuition' },
   'summary': { zh: '/zh/summary', en: '/en/summary' },
   'synthesis': { zh: '/zh/synthesis', en: '/en/synthesis' },
   'cross-cultural': { zh: '/zh/cross-cultural', en: '/en/cross-cultural' },
@@ -328,7 +328,7 @@ export default defineConfig({
     )
   },
   vite: { plugins: [pagefindPlugin()] },
-  ignoreDeadLinks: ['/zh/silent-blocking', '/en/silent-blocking'],
+  ignoreDeadLinks: ['/zh/silent-blocking', '/en/silent-blocking', '/zh/llm-intuition', '/en/llm-intuition'],
   cleanUrls: true,
   lastUpdated: true,
 })
