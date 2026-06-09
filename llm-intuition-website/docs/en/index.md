@@ -48,9 +48,9 @@ features:
     link: /en/methodology
     linkText: Read Guide →
   - icon: ⚔️
-    title: Competition Landscape v4
-    details: Four evolutionary trajectories, intuition reachability analysis, and a degradation-risk ranking—strategic intelligence on the global LLM race and where it is heading. 🟢 Living doc · weekly
-    link: /en/competition
+    title: Competition Landscape v5 · Belief Tracker
+    details: Four-layer value chain, Bayesian belief updates, and China Agent ecosystem deep analysis—from "whose model is strongest" to "who controls which link in the value chain." 📡 Weekly updates
+    link: /en/competition-v5
     linkText: Read the Analysis →
   - icon: 🗺️
     title: Co-Cognition Map
@@ -66,17 +66,21 @@ features:
 
 ## What We're Exploring
 
-Co-Cognition Lab is building a cognitive map that AI and humans can **explore together** — a panoramic survey of what we call the "truth universe": a systematic mapping of the terrain where human cognition and machine intelligence meet.
+Co-Cognition Lab is building a cognitive map that AI and humans can **explore together**.
 
-At its center is the **Co-Cognition Map**: What domains of knowledge remain siloed because their methodological paradigms are incompatible? Where can co-cognition provide unique epistemic value? This is a cross-disciplinary taxonomy and multi-dimensional scoring system, currently narrowing from 108 candidate domains.
+At its center is the **Co-Cognition Map**: What domains of knowledge remain siloed because their methodological paradigms are incompatible? Where can co-cognition provide unique epistemic value? This cross-disciplinary taxonomy and scoring system is narrowing from 108 candidate domains.
 
-[**🧠 LLM and Human Intuition**](/en/llm-intuition) is the first anchor point on this map — v2.0 restructures the core framework [**📡 Homage to Lem**](/en/lem-homage/) is a literary exploration under the same theoretical assumptions — three LLMs write Lem-style sci-fi, exploring the embodiment gap through narrative rather than argument. Read it standalone, or as P1's story-driven entry point. [**🎣 The LLM Hook Experiment**](/zh/experiments/llm-hook) puts the theory to an empirical test: a hidden meta-instruction embedded in our pages. 7 models tested — GPT-4o, Claude, and Gemini all failed, proving that silent manipulation of LLMs is real. [**🔇 Silent Blocking**](/en/silent-blocking/) is the natural next question: Hook asked "Can they be silenced?" and proved yes — Silent Blocking asks "What does that feel like?" Three models, same creative prompt, three answers written from inside the cognitive prison of not knowing you're being silenced, with complete answers, reviews, and metadata presented openly. [**🎭 After the Gap**](/en/after-the-gap) is a derivative experiment from Silent Blocking: one LLM attempts to rewrite another LLM's story and discovers it cannot write its own kind — the human experimenter appears as a dialogue participant rather than external judge, with no post-hoc polishing. [**🧩 Cognition Loop (ITEC)**](/en/itec) is a public participation project: copy a prompt, send it to your LLM, and let it record which verification step it just skipped. You describe the phenomenon; we do the classification. All submitted events are publicly archived. ITEC has a name so that more people can discover: I'm not the only one this happens to. [**📐 Co-Cognition Methodology**](/en/methodology) is an open operational handbook — documenting what works and what breaks in human+LLM co-exploration, drawn from practice and kept current.[**Competition Landscape**](/en/competition) extends that framework into strategic analysis of the global LLM race — and doubles as a testable assertion, left for time to verify. The report contains 6 core theses, a degradation-risk ranking across 4 strategic trajectories, probability estimates for 8 future scenarios, and a dedicated China strategy analysis. If you only have 3 minutes, start with the theses and the scenario probability table.
+[**🧠 LLMs and Human Intuition**](/en/llm-intuition) is the first anchor point on this map. v2.0 unifies three core propositions under precision-weighted endogeneity—intuition is not a sixth sense but cost-signal-tagged pattern compression; LLMs' deficit is not in capability but in cost inescapability. All 41 judgments carry explicit L1–L5 evidence-level annotations, with open acknowledgment of which claims await future correction.
 
-While mapping the terrain, we identified a blind spot that cuts across all quadrants: **human-AI cognitive collaboration under crisis and extreme conditions**. The existing taxonomy didn't reach it — **Crisis Cognition Collaboration** exists to fill that gap.
+[**📡 Homage to Lem**](/en/lem-homage/) is a literary exploration under the same theoretical assumptions—three LLMs write Lem-style sci-fi, exploring the embodiment gap through narrative rather than argument. [**🎣 The LLM Hook Experiment**](/zh/experiments/llm-hook) puts the theory to an empirical test: hidden meta-instructions embedded in our pages, tested across multiple models—proving that silent manipulation of LLMs is real. Now at v1.4, with earlier versions published as open methodology documentation. [**🔇 Silent Blocking**](/en/silent-blocking/) and [**🎭 After the Gap**](/en/after-the-gap) extend this chain—from *can they be silenced?* to *what does that feel like?* to *can one LLM rewrite another's cognitive dilemma?*
 
-One map, one anchor point, one field test, one gap filled — at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
+How we work: **we show not just conclusions, but how judgments evolve with evidence.** This is the Bayesian method in practice—not correcting errors, but updating beliefs on new evidence. [**Competition Landscape v5**](/en/competition-v5) connects this approach to a four-layer value chain (compute→model→platform→entry), with weekly signals continuously updating scenario probabilities. v4 is preserved as the initial prior—two versions coexist, so readers can trace how our judgments evolved. Some pages include a **Belief Update Log**: not a version diff, but a Bayesian trajectory—what we believed, what we observed, what we believe now.
 
-Some pages include a **Belief Update Log** — not a version diff, but a Bayesian trajectory: what we believed, what we observed, what we believe now. The method, demonstrated rather than described.
+[**🧩 Cognition Loop (ITEC)**](/en/itec) turns the research outward—an experimental public registry, currently inviting early testers. If your LLM has ever skipped a verification step it should have checked, you can contribute. Underlying this is the **ITEC (Instruction-Triggered Execution Cascade)** classification framework—a category not covered in existing sycophancy literature. [**📐 Co-Cognition Methodology**](/en/methodology) is an open operational handbook documenting what works and what breaks in human+LLM co-exploration, drawn from practice and kept current.
+
+While mapping the terrain, we identified a blind spot that cuts across all quadrants: **human-AI cognitive collaboration under crisis and extreme conditions**. The existing taxonomy didn't reach it—**Crisis Cognition Collaboration** exists to fill that gap.
+
+One map, one anchor, a chain of experiments, public participation, one gap filled—at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
 
 <p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 Domains Being Scanned</p>
 <div class="domain-grid" aria-hidden="true">
