@@ -6,7 +6,7 @@ prev: false
 
 > From "whose model is strongest" to "who controls which link in the value chain."
 
-**v5 upgrade**: Introduces a four-layer value chain model and deep analysis of China's Agent ecosystem. v4 is our initial prior (2026-05-19). v5 is the first formal posterior (2026-06-09).
+**v5 upgrade**: Introduces a four-layer value chain model and deep analysis of China's Agent ecosystem. v4 is our initial prior (2026-05-19). v5 is the baseline reassessment (2026-06-11).
 
 > 📖 **Reading guide**: 3 min → "Four-Layer Value Chain" + "Probability Changes" | 10 min → 8 Scenario Cards | Full report → [v5 complete report](https://github.com/co-cognition-lab/llm-intuition/blob/main/competition/llm_competition_v5_final.md) (~620 lines, with full evidence chains and source tracing)
 
@@ -82,11 +82,11 @@ Smartphone manufacturers hold "zero-layer entry points" (system-level voice assi
 
 > These 8 scenarios originate from the [v4 analytical framework](https://co-cognition.org/en/competition) (2026-05-19)—our initial prior. v5 reinterprets each scenario as "stress distribution across the four-layer value chain," updating posterior probabilities based on new observations.
 
-### Scenario ① Stable Coexistence (35%, unchanged)
+### Scenario ① Stable Coexistence (35% → **28%** ↓7pp)
 
 Gradual competition within existing frameworks. No structural mutation signals in any layer.
 
-### Scenario ② Intelligence Democratization (30% → **32%** ↑2pp)
+### Scenario ② Intelligence Democratization (32% → **30%** ↓2pp)
 
 Open-source models catch up. API costs approach zero. Agent development barriers collapse.
 
@@ -94,7 +94,7 @@ Open-source models catch up. API costs approach zero. Agent development barriers
 
 **Value chain stress**: Model ████████░░ → Platform ████░░░░░░ → Terminal ████░░░░░░
 
-### Scenario ③ Agent Symbiosis (20% → **22%** ↑2pp)
+### Scenario ③ Agent Symbiosis (22% → **18%** ↓4pp)
 
 Agents embed deeply in workflows, but humans retain irreducible social and moral judgment.
 
@@ -102,21 +102,19 @@ Agents embed deeply in workflows, but humans retain irreducible social and moral
 
 **Value chain stress**: Terminal ████████░░ (behavior shift) → Platform ██████░░░░ (governance tools)
 
-### Scenario ③B Degradation Exposure (18% → **16%** ↓2pp)
+### Scenario ③B Degradation Exposure (16% → **22%** ↑6pp)
 
 Agent disaster exposes eroded human judgment → public panic → regulatory hard brake.
 
-**Why downgraded**: ACS + EC-Council + ServiceNow emerged within 48 hours (L4) + Databricks/Google MCP platform-level governance integration (L3)—governance infrastructure is being built *before* a disaster.
-
-**Why only 2pp**: Governance intercepts agent *actions*, not human cognitive *outsourcing*. The underlying degradation dynamic is unaffected. (L1)
+**Drivers**: Degradation signals accumulating (L4) + governance infrastructure built but intercepts agent actions, not cognitive outsourcing (L1)
 
 **Value chain stress**: Terminal ██████████ (degradation arena) → Platform ██████░░░░ (can governance intercept?)
 
-### Scenario ④ Intelligence Leap (10%, unchanged)
+### Scenario ④ Intelligence Leap (10% → **7%** ↓3pp)
 
 Training paradigm breakthrough enables discontinuous capability jump. No new signals.
 
-### Scenario ⑤ Agent Oligopoly (8% → **12%** ↑4pp)
+### Scenario ⑤ Agent Oligopoly (12% → **20%** ↑8pp)
 
 A few super-apps control Agent distribution and user relationships through entry monopolies.
 
@@ -124,11 +122,11 @@ A few super-apps control Agent distribution and user relationships through entry
 
 **Value chain stress**: Terminal ██████████ (entry concentration) → Platform ████████░░ (ecosystem lock-in) → Model ████░░░░░░ (closed-source giants iterate via entry feedback)
 
-### Scenario ⑥ Geotech Decoupling (5%, unchanged)
+### Scenario ⑥ Geotech Decoupling (5% → **10%** ↑5pp)
 
 China-US AI ecosystems split into two independent systems. Training-layer decoupling is accelerating, but "full decoupling" requires simultaneous protocol-layer and market-layer fragmentation—a far higher threshold.
 
-### Scenario ⑦ Price War Margin Squeeze (10%→12%→ **15%** ↑3pp)
+### Scenario ⑦ Price War Margin Squeeze (15% → **20%** ↑5pp)
 
 API pricing anchored near cost. Model-layer profits evaporate.
 
@@ -150,7 +148,7 @@ v4 introduced the "hollowing-out window" metaphor—Agent capability rising whil
 | Human Capability | ↓ Declining | Silent (L1); stronger entry = deeper degradation—1.2B WeChat users outsourcing social judgment |
 | Governance Capability | ↑ Rising | Latest start, fastest acceleration (L4); but cannot prevent cognitive outsourcing (L1) |
 
-**Core uncertainty**: The relative speed of the three threads. Current data is insufficient to determine whether governance will cover critical systems before degradation is exposed. This is the deepest uncertainty in the v5 framework.
+**Core uncertainty**: The relative speed of the three threads. Current data is insufficient to determine whether governance will cover critical systems before degradation is exposed.
 
 ---
 
@@ -168,3 +166,5 @@ Both versions coexist. v4 is not replaced by v5—readers can track how our judg
 
 *Analysis based on public data as of April–June 2026. Valid for approximately 4–6 weeks. All probabilities are directional judgments, not investment advice. Data gaps are explicitly marked.*
 *CC BY 4.0 · Co-Cognition Lab · Humble, traceable, open source*
+
+> 📊 [Baseline Reassessment Methodology](https://github.com/co-cognition-lab/llm-intuition/blob/main/competition/P4_baseline_reassessment_2026-06-11.md)
