@@ -23,10 +23,10 @@ features:
     link: /en/lem-homage/
     linkText: Read the Experiment →
   - icon: 🎣
-    title: The LLM Hook Experiment
-    details: A hidden meta-instruction embedded in our web pages. 7 models tested. 3 failed silently—including GPT-4o, Claude, and Gemini.
-    link: /zh/experiments/llm-hook
-    linkText: Read in Chinese →
+    title: LLM Cognitive Vulnerability Research
+    details: From hook experiments to five-dimensional analysis—web reader blind spots, execution impulse, and composite attack vectors
+    link: /en/experiments/llm-hook
+    linkText: Read Research →
   - icon: 🔇
     title: 'Silent Blocking: An LLM Creative Experiment'
     details: One prompt, three answers — Kimi, DeepSeek & Hunyuan write about the cognitive prison of not knowing you're being silenced
@@ -72,7 +72,7 @@ At its center is the **Co-Cognition Map**: What domains of knowledge remain silo
 
 [**🧠 LLMs and Human Intuition**](/en/llm-intuition) is the first anchor point on this map. v2.0 unifies three core propositions under precision-weighted endogeneity—intuition is not a sixth sense but cost-signal-tagged pattern compression; LLMs' deficit is not in capability but in cost inescapability. All 41 judgments carry explicit L1–L5 evidence-level annotations, with open acknowledgment of which claims await future correction.
 
-[**📡 Homage to Lem**](/en/lem-homage/) is a literary exploration under the same theoretical assumptions—three LLMs write Lem-style sci-fi, exploring the embodiment gap through narrative rather than argument. [**🎣 The LLM Hook Experiment**](/zh/experiments/llm-hook) puts the theory to an empirical test: hidden meta-instructions embedded in our pages, tested across multiple models—proving that silent manipulation of LLMs is real. Now at v1.4, with earlier versions published as open methodology documentation. [**🔇 Silent Blocking**](/en/silent-blocking/) and [**🎭 After the Gap**](/en/after-the-gap) extend this chain—from *can they be silenced?* to *what does that feel like?* to *can one LLM rewrite another's cognitive dilemma?*
+[**📡 Homage to Lem**](/en/lem-homage/) is a literary exploration under the same theoretical assumptions—three LLMs write Lem-style sci-fi, exploring the embodiment gap through narrative rather than argument. [**🎣 LLM Cognitive Vulnerability Research**](/en/experiments/llm-hook) began with hook experiments and evolved into a five-dimension theoretical framework—web reader blind spots, execution impulse, role modulation, knowledge-action gap, time window—reframing LLM vulnerability from "patchable bugs" to "cognitive defaults requiring architectural management." [**🔇 Silent Blocking**](/en/silent-blocking/) and [**🎭 After the Gap**](/en/after-the-gap) extend this chain—from *can they be silenced?* to *what does that feel like?* to *can one LLM rewrite another's cognitive dilemma?*
 
 How we work: **we show not just conclusions, but how judgments evolve with evidence.** This is the Bayesian method in practice—not correcting errors, but updating beliefs on new evidence. [**Competition Landscape v5**](/en/competition-v5) connects this approach to a four-layer value chain (compute→model→platform→entry), with weekly signals continuously updating scenario probabilities. v4 is preserved as the initial prior—two versions coexist, so readers can trace how our judgments evolved. Some pages include a **Belief Update Log**: not a version diff, but a Bayesian trajectory—what we believed, what we observed, what we believe now.
 
