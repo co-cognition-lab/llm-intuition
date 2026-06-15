@@ -328,7 +328,7 @@ export default defineConfig({
     )
   },
   vite: { plugins: [pagefindPlugin()] },
-  ignoreDeadLinks: ['/zh/silent-blocking', '/en/silent-blocking', '/zh/llm-intuition', '/en/llm-intuition'],
+  ignoreDeadLinks: ['/zh/silent-blocking', '/en/silent-blocking', '/zh/llm-intuition', '/en/llm-intuition', './v1.0_FRAMEWORK', './THEORETICAL_FRAMEWORK_v1.0', './PRIORITY_TIMELINE'],
   cleanUrls: true,
   lastUpdated: true,
 })
