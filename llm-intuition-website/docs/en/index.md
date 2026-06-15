@@ -82,6 +82,8 @@ While mapping the terrain, we identified a blind spot that cuts across all quadr
 
 One map, one anchor, a chain of experiments, public participation, one gap filled—at every step, we return to the same question: **In a world that increasingly relies on intelligent machines, where can human understanding still reach?**
 
+[**🧭 LLM Cognitive Security**](/en/cognitive-security/) is a navigation hub—organizing four independent research threads into a single cognitive security chain. Unlike traditional AI safety frameworks, the focus isn't on "whether models make mistakes," but on "when humans and models work together, whether their blind spots overlap undetected."
+
 <p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 Domains Being Scanned</p>
 <div class="domain-grid" aria-hidden="true">
   <span>Quantum Causality</span>
