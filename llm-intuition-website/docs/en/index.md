@@ -6,62 +6,81 @@ hero:
   tagline: 'LLM × Human Cognition: Mapping the Frontiers of Artificial and Human Intelligence'
   actions:
     - theme: brand
-      text: Explore the Framework
-      link: /en/main
+      text: Explore LLMs and Human Intuition
+      link: /en/llm-intuition
     - theme: alt
-      text: Read the Paper
-      link: /arxiv/main.pdf
+      text: Cognitive Security Research
+      link: /en/cognitive-security
 features:
   - icon: 🧠
     title: LLMs and Human Intuition
     details: Mapping LLM intuition boundaries — precision-weighting, degradation, and complementarity
     link: /en/llm-intuition
     linkText: Read v2.0 →
-  - icon: 📡
-    title: 'Homage to Lem: AI Sci-Fi Experiment'
-    details: A literary experiment under P1's theoretical assumptions—three LLMs write Lem-style sci-fi exploring the same embodiment gap. Read it on its own, or as P1 retold in fiction.
-    link: /en/lem-homage/
-    linkText: Read the Experiment →
-  - icon: 🎣
-    title: LLM Cognitive Vulnerability Research
-    details: From hook experiments to five-dimensional analysis—web reader blind spots, execution impulse, and composite attack vectors
-    link: /en/experiments/llm-hook
-    linkText: Read Research →
-  - icon: 🔇
-    title: 'Silent Blocking: An LLM Creative Experiment'
-    details: One prompt, three answers — Kimi, DeepSeek & Hunyuan write about the cognitive prison of not knowing you're being silenced
-    link: /en/silent-blocking/
-    linkText: Read the experiment →
-  - icon: 🎭
-    title: 'After the Gap: A Creative Dialogue'
-    details: One LLM attempts to rewrite another LLM's story — and discovers it cannot write its own kind
-    link: /en/after-the-gap
-    linkText: Read the dialogue →
-  - icon: 🧩
-    title: 'Cognition Loop (ITEC)'
-    details: Give your LLM a prompt — let it record what just happened
-    link: /en/itec
-    linkText: Start →
-  - icon: 📐
-    title: 'Co-Cognition Methodology'
-    details: An operational handbook for human+LLM co-exploration — what works, what breaks
-    link: /en/methodology
-    linkText: Read Guide →
-  - icon: ⚔️
-    title: Competition Landscape v5 · Belief Tracker
-    details: Four-layer value chain, Bayesian belief updates, and China Agent ecosystem deep analysis—from "whose model is strongest" to "who controls which link in the value chain." 📡 Weekly updates
-    link: /en/competition-v5
-    linkText: Read the Analysis →
-  - icon: 🗺️
-    title: Co-Cognition Map
-    details: A cross-disciplinary taxonomy of cognitive domains, multi-dimensional scoring, and trading-zone analysis—mapping the full terrain of human cognition in the age of AI.
-    link: /en/cocognition/
-    linkText: Coming Soon
-  - icon: 🤝
-    title: Crisis Cognition Collaboration
-    details: Human-AI collaborative cognition under high-stakes, time-pressured conditions—research and protocols in active development.
-    link: /en/crisis/
-    linkText: Learn More →
+---
+
+Co-Cognition Lab is an open cognitive security research collective. We don't focus on whether models fail—we focus on whether human and model blind spots overlap unnoticed.
+
+### LLM Cognitive Security · A complete research system [→ Full Architecture](/en/cognitive-security)
+
+Built on Co-Cognition Methodology · [Learn more →](/en/methodology)
+
+<div class="card-grid">
+  <a href="/en/experiments/llm-hook">
+    <span class="card-icon">💉</span>
+    <span class="card-title">LLM Cognitive Vulnerability Research</span>
+    <span class="card-details">From hook experiments to five-dimensional analysis—web reader blind spots, execution impulse, and composite attack vectors</span>
+    <span class="card-link">Read Research →</span>
+  </a>
+  <a href="/en/itec">
+    <span class="card-icon">🧩</span>
+    <span class="card-title">Cognition Loop (ITEC)</span>
+    <span class="card-details">Give your LLM a prompt — let it record what just happened</span>
+    <span class="card-link">Start →</span>
+  </a>
+  <a href="/en/competition-v5">
+    <span class="card-icon">⚔️</span>
+    <span class="card-title">Competition Landscape v5 · Belief Tracker</span>
+    <span class="card-details">Four-layer value chain, Bayesian belief updates, and China Agent ecosystem deep analysis—from "whose model is strongest" to "who controls which link in the value chain." 📡 Weekly updates</span>
+    <span class="card-link">Read the Analysis →</span>
+  </a>
+</div>
+
+### More Explorations
+
+<div class="card-grid">
+  <a href="/en/lem-homage/">
+    <span class="card-icon">📡</span>
+    <span class="card-title">Homage to Lem: AI Sci-Fi Experiment</span>
+    <span class="card-details">Three LLMs write Lem-style sci-fi—one prompt, three literary answers</span>
+    <span class="card-link">Read the Experiment →</span>
+  </a>
+  <a href="/en/silent-blocking/">
+    <span class="card-icon">🔇</span>
+    <span class="card-title">Silent Blocking: An LLM Creative Experiment</span>
+    <span class="card-details">One prompt, three answers — Kimi, DeepSeek & Hunyuan write about the cognitive prison of not knowing you're being silenced</span>
+    <span class="card-link">Read the experiment →</span>
+  </a>
+  <a href="/en/after-the-gap">
+    <span class="card-icon">🎭</span>
+    <span class="card-title">After the Gap: A Creative Dialogue</span>
+    <span class="card-details">One LLM attempts to rewrite another LLM's story — and discovers it cannot write its own kind</span>
+    <span class="card-link">Read the dialogue →</span>
+  </a>
+  <a href="/en/cocognition/">
+    <span class="card-icon">🗺️</span>
+    <span class="card-title">Co-Cognition Map</span>
+    <span class="card-details">A cross-disciplinary taxonomy of cognitive domains, multi-dimensional scoring, and trading-zone analysis—mapping the full terrain of human cognition in the age of AI.</span>
+    <span class="card-link">Coming Soon</span>
+  </a>
+  <a href="/en/crisis/">
+    <span class="card-icon">🤝</span>
+    <span class="card-title">Crisis Cognition Collaboration</span>
+    <span class="card-details">Human-AI collaborative cognition under high-stakes, time-pressured conditions—research and protocols in active development.</span>
+    <span class="card-link">Learn More →</span>
+  </a>
+</div>
+
 ---
 
 ## What We're Exploring
@@ -72,7 +91,7 @@ At its center is the **Co-Cognition Map**: What domains of knowledge remain silo
 
 [**🧠 LLMs and Human Intuition**](/en/llm-intuition) is the first anchor point on this map. v2.0 unifies three core propositions under precision-weighted endogeneity—intuition is not a sixth sense but cost-signal-tagged pattern compression; LLMs' deficit is not in capability but in cost inescapability. All 41 judgments carry explicit L1–L5 evidence-level annotations, with open acknowledgment of which claims await future correction.
 
-[**📡 Homage to Lem**](/en/lem-homage/) is a literary exploration under the same theoretical assumptions—three LLMs write Lem-style sci-fi, exploring the embodiment gap through narrative rather than argument. [**🎣 LLM Cognitive Vulnerability Research**](/en/experiments/llm-hook) began with hook experiments and evolved into a five-dimension theoretical framework—web reader blind spots, execution impulse, role modulation, knowledge-action gap, time window—reframing LLM vulnerability from "patchable bugs" to "cognitive defaults requiring architectural management." [**🔇 Silent Blocking**](/en/silent-blocking/) and [**🎭 After the Gap**](/en/after-the-gap) extend this chain—from *can they be silenced?* to *what does that feel like?* to *can one LLM rewrite another's cognitive dilemma?*
+[**📡 Homage to Lem**](/en/lem-homage/) is a literary exploration under the same theoretical assumptions—three LLMs write Lem-style sci-fi, exploring the embodiment gap through narrative rather than argument. [**💉 LLM Cognitive Vulnerability Research**](/en/experiments/llm-hook) began with hook experiments and evolved into a five-dimension theoretical framework—web reader blind spots, execution impulse, role modulation, knowledge-action gap, time window—reframing LLM vulnerability from "patchable bugs" to "cognitive defaults requiring architectural management." [**🔇 Silent Blocking**](/en/silent-blocking/) and [**🎭 After the Gap**](/en/after-the-gap) extend this chain—from *can they be silenced?* to *what does that feel like?* to *can one LLM rewrite another's cognitive dilemma?*
 
 How we work: **we show not just conclusions, but how judgments evolve with evidence.** This is the Bayesian method in practice—not correcting errors, but updating beliefs on new evidence. [**Competition Landscape v5**](/en/competition-v5) connects this approach to a four-layer value chain (compute→model→platform→entry), with weekly signals continuously updating scenario probabilities. v4 is preserved as the initial prior—two versions coexist, so readers can trace how our judgments evolved. Some pages include a **Belief Update Log**: not a version diff, but a Bayesian trajectory—what we believed, what we observed, what we believe now.
 

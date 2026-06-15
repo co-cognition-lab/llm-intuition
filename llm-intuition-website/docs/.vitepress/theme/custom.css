@@ -2,7 +2,7 @@
  * Co-Cognition.org 首页卡片流动感增强 CSS
  * 作用域：仅首页 VPFeatures 区域
  * 技术栈：VitePress 1.6.4 纯 CSS，无 JS，无 HTML 修改
- * 版本：1.1.0 — 移除移动端呼吸动画，新增窄屏 2 列网格
+ * 版本：1.2.0 — 首页重构：自定义卡片网格 + 分组标题
  */
 
 /* ============================================
@@ -80,9 +80,6 @@
 
 /* ============================================
    移动端：静态流动感（无 hover）
-   条件：触屏设备
-   2026-05-24：移除 Plan C 呼吸动画（letter-spacing
-   在窄屏上导致文字换行），保留底部流动线。
    ============================================ */
 @media (hover: none) {
 
@@ -129,49 +126,6 @@
 }
 
 /* ============================================
-   可选增强：Icon 位置微弧线锚点标记（仅桌面端）
-   ============================================ */
-@media (hover: hover) {
-
-  .VPFeatures .items .item:nth-child(-n+4) .icon {
-    position: relative;
-  }
-
-  .VPFeatures .items .item:nth-child(-n+4) .icon::after {
-    content: "";
-    position: absolute;
-
-    bottom: -2px;
-    right: -6px;
-
-    width: 3px;
-    height: 3px;
-
-    background-color: #6b8cae;
-    border-radius: 50%;
-
-    box-shadow:
-      5px -1px 0 -1px #6b8cae,
-      10px -1px 0 -1px #6b8cae,
-      15px 1px 0 -1px #6b8cae;
-
-    opacity: 0;
-    transform: scale(0.8);
-
-    transition:
-      opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
-      transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-
-    pointer-events: none;
-  }
-
-  .VPFeatures .items .item:nth-child(-n+4):hover .icon::after {
-    opacity: 0.7;
-    transform: scale(1);
-  }
-}
-
-/* ============================================
    卡片层级管理
    ============================================ */
 .VPFeatures .item {
@@ -184,8 +138,6 @@
 
 /* ============================================
    窄屏优化：< 480px 手机端
-   - 2 列网格，两张卡片并排
-   - 减小内边距和字号
    ============================================ */
 @media (max-width: 480px) {
   .VPFeatures .items {
@@ -213,8 +165,6 @@
 
 /* ============================================
    Co-Cognition 全景图页面：漂浮域名背景
-   30 个跨学科域名，极低透明度，缓慢漂移
-   不阻挡交互 (pointer-events: none)
    ============================================ */
 .floating-domains {
   position: fixed;
@@ -254,8 +204,7 @@
 }
 
 /* ============================================
-   首页：Co-Cognition 全景图域名呼吸网格（方案 C）
-   30 个域名令牌，5 组错相 opacity 动画
+   首页：Co-Cognition 全景图域名呼吸网格
    ============================================ */
 .domain-grid {
   display: flex;
@@ -282,4 +231,97 @@
 @keyframes tokenBreathe {
   0%, 100% { opacity: 0.48; }
   50%      { opacity: 0.75; }
+}
+
+/* ============================================
+   首页重构：自定义卡片网格 + 分组标题
+   ============================================ */
+.section-header {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+}
+
+.section-header a {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.section-subtitle {
+  font-size: 0.82rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 1rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.card-grid a {
+  display: block;
+  padding: 20px 18px;
+  border-radius: 12px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-grid a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(100,140,200,0.1);
+}
+
+.card-grid .card-icon {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.card-grid .card-title {
+  display: block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--vp-c-text-1);
+  margin-bottom: 4px;
+}
+
+.card-grid .card-details {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--vp-c-text-2);
+  margin-bottom: 8px;
+}
+
+.card-grid .card-link {
+  display: inline-block;
+  font-size: 0.78rem;
+  color: var(--vp-c-brand);
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .card-grid a {
+    padding: 14px 10px;
+  }
+  .card-grid .card-title { font-size: 0.85rem; }
+  .card-grid .card-details { font-size: 0.72rem; }
 }
