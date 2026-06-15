@@ -8,7 +8,7 @@
 > **Current revision**: v1.0 argumentative-axis reconstruction—from "phenomenon discoverer" to "diagnostic lens provider". Added sycophancy systematic cross-read, three-scenario field tests, intervention strategy divergence argument, boundary territory honesty map
 > **Cross-reference**: Aligned with Hook Experiment Framework v1.6 and PRIORITY_TIMELINE.md (§6.5)
 >
-> Framework definition: [v1.0_FRAMEWORK.md](v1.0_FRAMEWORK.md)
+> Framework definition: v1.0_FRAMEWORK.md（项目内部文档，未上线）
 
 ---
 
@@ -549,7 +549,7 @@ This distinction carries diagnostic significance: if the failure is preference-d
 
 ## Derived Intervention Measures
 
-Based on the above diagnosis, three concrete interventions were generated, all implemented in [CAIHUI_ITEC_IMMUNIZATION.md](file:///D:/文档/LobsterProject/LiteratureHistoryPhilosophy/project5-itec-cognition/optimization/CAIHUI_ITEC_IMMUNIZATION.md):
+Based on the above diagnosis, three concrete interventions were generated, all implemented in CAIHUI_ITEC_IMMUNIZATION.md（项目内部文档）:
 
 **§0 Dictionary Confirmation Block—hard output format**
 
@@ -1013,7 +1013,7 @@ The ITEC perspective and the laboratory's Hook Experiment Framework (LLM Cogniti
 
 **Priority timeline**: The Hook Framework's priority timeline (PRIORITY_TIMELINE.md, 2026-06-15) records the ITEC events 5/26 and 5/27 as the earliest public record discovery dates, leading the arXiv 2606 batch external work by 14–19 days. This timeline serves as the priority citation source for this study.
 
-The two papers are designed as mutually cross-referencing independent contributions—ITEC provides the diagnostic perspective and intervention framework, and the Hook Experiment provides the safety dimension and attack vector analysis. Readers may refer to [Hook Experiment Framework v1.6](THEORETICAL_FRAMEWORK_v1.0.md) and [PRIORITY_TIMELINE.md](PRIORITY_TIMELINE.md) for the complete discussion.
+The two papers are designed as mutually cross-referencing independent contributions—ITEC provides the diagnostic perspective and intervention framework, and the Hook Experiment provides the safety dimension and attack vector analysis. Readers may refer to [Hook Experiment Framework v1.6](/en/experiments/llm-hook) and [PRIORITY_TIMELINE.md](/en/experiments/llm-hook#priority-timeline) for the complete discussion.
 
 
 # §7 Conclusion
