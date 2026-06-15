@@ -8,7 +8,7 @@
 > **本轮修订**：v1.0 论述轴心重构——从"现象发现者"到"诊断视角提供者"。新增 sycophancy 系统对读、三场景实战检验、干预策略分叉论证、边界地带诚实地图
 > **交叉引用**：与钩子实验框架 v1.6 及 PRIORITY_TIMELINE.md 交叉引用对齐（§6.5）
 >
-> 框架定义：[v1.0_FRAMEWORK.md](v1.0_FRAMEWORK.md)
+> 框架定义：v1.0_FRAMEWORK.md（项目内部文档，未上线）
 
 ---
 
@@ -615,7 +615,7 @@ Agent 的操作不是想讨好用户——
 ## 导出的干预方案
 
 基于以上诊断，生成三项具体干预，
-全部实施于 [CAIHUI_ITEC_IMMUNIZATION.md](file:///D:/文档/LobsterProject/LiteratureHistoryPhilosophy/project5-itec-cognition/optimization/CAIHUI_ITEC_IMMUNIZATION.md)：
+全部实施于 CAIHUI_ITEC_IMMUNIZATION.md（项目内部文档）：
 
 **§0 字典确认块——硬输出格式**
 
@@ -1098,7 +1098,7 @@ ITEC 视角与实验室的钩子实验框架（LLM Cognitive Vulnerability: Five
 
 **优先权时间线**：钩子框架的优先权时间线（PRIORITY_TIMELINE.md, 2026-06-15）记录了 ITEC 事件 5/26、5/27 为最早公开记录的发现日期，领先 arXiv 2606 批次外部工作 14-19 天。该时间线作为本研究的优先权引用源。
 
-两篇论文被设计为相互交叉引用的独立贡献——ITEC 提供诊断视角和干预框架，钩子实验提供安全维度和攻击向量分析。读者可参阅 [钩子实验框架 v1.6](THEORETICAL_FRAMEWORK_v1.0.md) 和 [PRIORITY_TIMELINE.md](PRIORITY_TIMELINE.md) 获取完整论述。
+两篇论文被设计为相互交叉引用的独立贡献——ITEC 提供诊断视角和干预框架，钩子实验提供安全维度和攻击向量分析。读者可参阅 [钩子实验框架 v1.6](/zh/experiments/llm-hook) 和 [PRIORITY_TIMELINE.md](/zh/experiments/llm-hook#优先权时间线) 获取完整论述。
 
 
 # §7 结论
