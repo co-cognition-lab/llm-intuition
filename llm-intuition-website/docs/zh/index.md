@@ -82,6 +82,8 @@ Co-Cognition Lab 想做一件事：绘制一张 AI 与人类可以**共同探索
 
 从一张图，到一个支点，到一系列实验，到公共参与，到填补一个空白——每一步都在问同一个问题：**在一个越来越依赖智能机器的世界里，人类的理解力还能往哪个方向走？**
 
+[**🧭 LLM 认知安全**](/zh/cognitive-security/) 是一个导航入口——将四条独立研究线组织为一条完整的认知安全链条。和传统 AI 安全框架的区别：这里关注的不是"模型会不会出错"，而是"人和模型一起工作时，各自的盲区是否在无人察觉处重叠"。
+
 <p style="text-align:center;margin-top:2.5rem;font-size:0.82rem;color:var(--vp-c-text-2)">🌐 全景图正在扫描的领域</p>
 <div class="domain-grid" aria-hidden="true">
   <span>量子因果</span>
