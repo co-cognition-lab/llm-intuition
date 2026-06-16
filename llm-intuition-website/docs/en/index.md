@@ -19,7 +19,13 @@ features:
     linkText: Read v2.0 →
 ---
 
+Co-Cognition — humans and AI, each with their own cognitive blind spots, exploring the unknown together.
+
 Co-Cognition Lab is an open cognitive security research collective. We don't focus on whether models fail—we focus on whether human and model blind spots overlap unnoticed.
+
+We start from a single question: when humans and AI each have their own cognitive blind spots, do those blind spots ever overlap unnoticed?
+
+From the irreplaceability of human intuition, to the discovery of LLMs' cognitive vulnerability in web reading and execution, to a publicly verifiable classification framework (ITEC), to ongoing tracking of industry competition—each step is a Bayesian update: judgments revised on new evidence, uncertainties labeled honestly. These are not independent projects. They are one research system unfolding.
 
 ### LLM Cognitive Security · A complete research system [→ Full Architecture](/en/cognitive-security)
 
