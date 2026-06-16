@@ -155,13 +155,13 @@ Our paper is now publicly available:
 
 ## About Co-Cognition Lab
 
-Co-Cognition Lab is a multi-project research collective investigating the interplay between large language models and human cognition. We build theoretical frameworks and practical tools to understand where human intuition augments AI capabilities—and where it remains irreplaceable.
+Co-Cognition Lab is an independent research project. Signed as Li, J.——a financial data analyst in China pursuing research in spare time.
 
-Current research directions:
+The Lab investigates human-LLM collaborative cognition across four directions:
 
 - **LLM Intuition** (Project 1) — theoretical framework and empirical research
 - **Competition Landscape** (Project 4) — applying theory to real-world LLM competition analysis
 - **Co-Cognition Map** (Project 2) — cross-disciplinary taxonomy and cognitive landscape mapping
 - **Crisis Cognition** (Project 3) — human-AI collaborative cognition in crisis scenarios
 
-[Learn more about Co-Cognition Lab →](/en/about)
+All reasoning is traceable. All conclusions carry explicit premises and evidence levels. All content is open-source under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
