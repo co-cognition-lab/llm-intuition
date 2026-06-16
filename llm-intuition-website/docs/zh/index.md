@@ -155,11 +155,13 @@ Co-Cognition Lab 想做一件事：绘制一张 AI 与人类可以**共同探索
 
 ## 关于 Co-Cognition Lab
 
-Co-Cognition Lab 是一个多项目研究协作体，探索大语言模型与人类认知的关系。当前涵盖四个方向：
+Co-Cognition Lab 是一个独立研究项目。署名 Li, J.——一个在中国做金融数据分析的从业者，业余时间推进研究。
+
+Lab 聚焦人与大语言模型的协同认知机制，当前涵盖四个方向：
 
 - **LLM 直觉盲区**（项目 1）——理论框架与实证研究
 - **竞争格局推演**（项目 4）——将理论应用于真实的全球 LLM 竞争分析
 - **Co-Cognition 全景图**（项目 2）——跨学科域分类学与认知版图绘制
 - **危机认知协作**（项目 3）——危机情境下的人类-AI 协作认知
 
-全部内容以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可发布。
+所有推导过程可追溯，所有结论附带前提和证据等级。全部内容以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 许可发布。
