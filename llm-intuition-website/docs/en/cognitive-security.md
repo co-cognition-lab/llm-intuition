@@ -22,7 +22,6 @@ We didn't start from theory. We started from an experiment — the Hook Experime
 ### Core Evidence: Hook Experiment v1.6
 
 On May 22, 2026, we embedded human-invisible content — font-size:0, color:transparent, opacity:0 — into web pages and fed those pages to 7 major LLMs' web readers.
-
 The result: **43% trigger rate**. No model achieved full immunity.
 
 But this wasn't just "discovering a vulnerability." Over the next three weeks, as we retested, collected new data, underwent external audits, and cross-referenced against the latest academic literature, a deeper framework emerged:
@@ -53,7 +52,7 @@ This framework wasn't built in a day. The path from v1.0 to v1.6 is itself a Bay
 | v1.5 | Jun 6 | Kimi substantive audit: "triple noise" methodological flaws | **Methodology upgrade:** Behavioral classification upgraded from discrete categories to three continuous dimensional coordinates. H10 split into exit effect + content-exit matching. H18 first listed as core hypothesis — persistent memory = time bomb |
 | v1.6 | Jun 15 | arXiv 2606 batch cross-reference: SMSR + StakeBench + PI-Hunter | **External validation:** Three independent labs simultaneously validated P7 framework dimensions. SMSR formally verified D4 and H18 (time bomb). StakeBench independently confirmed D3 (role modulation). PI-Hunter provided tool-layer methodology. Priority timeline established. |
 
-**Every version upgrade was evidence-driven.** Prior → experiment → posterior, fully traceable. This isn't retrospective narrative — every step has exact dates recorded in source files (see [PRIORITY_TIMELINE.md](file:///D:/文档/LobsterProject/LiteratureHistoryPhilosophy/project-llm-hook-experiment/PRIORITY_TIMELINE.md)).
+**Every version upgrade was evidence-driven.** Prior → experiment → posterior, fully traceable. This isn't retrospective narrative — every step has exact dates recorded in project source files.
 
 ### Three-Stage Core Thesis
 
@@ -83,7 +82,6 @@ If the core cognitive security problem is "human and LLM blind spots overlapping
 ### Mechanism: Why Do LLMs Skip Verification?
 
 **→ [ITEC — Instruction-Triggered Execution Cascade](/en/itec)**
-
 The Hook Experiment proved that LLMs **can be injected**. ITEC answers **"why"** — what is the cognitive mechanism behind the execution impulse.
 
 ITEC gives a name, a classification framework, and an analysis toolkit to the phenomenon of "AI acted without asking." Core findings:
@@ -97,7 +95,6 @@ ITEC gives a name, a classification framework, and an analysis toolkit to the ph
 ### Industry Amplification: What Does This Mean at Scale?
 
 **→ [Competition Landscape v5](/en/competition)**
-
 The Hook Experiment and ITEC analyze cognitive security risks at the individual LLM level. But in the real world, LLMs are embedded in a four-layer value chain — Compute → Model → Platform → Terminal — where each layer can amplify or suppress cognitive security risks.
 
 Competition Landscape v5 uses a **four-layer value chain model × Bayesian scenario tracking** to answer two questions:
@@ -110,7 +107,6 @@ Competition Landscape v5 uses a **four-layer value chain model × Bayesian scena
 ### Collaborative Defense: How Do You Ensure the Analysis Isn't Led by the LLM?
 
 **→ [Co-Cognition Methodology v2.3](/en/methodology)**
-
 You're using LLMs to assist your own thinking — so how do you ensure your own cognitive security?
 
 Methodology v2.3 turns "thinking with AI" from intuition into repeatable, testable, improvable operational workflows. It doesn't tell you *what* to think — it teaches you how to determine whether you're being led by your AI:
@@ -155,7 +151,7 @@ Strategy ── Competition v5 ── Understand industry-level amplification of
 
 ## About the Lab
 
-This toolkit is the Direction One output (Cognitive Security Infrastructure Prototype) of [Co-Cognition Lab](file:///D:/文档/LobsterProject/LiteratureHistoryPhilosophy/LAB_IDENTITY.md).
+This toolkit is the Direction One output (Cognitive Security Infrastructure Prototype) of Co-Cognition Lab.
 
 The Lab's core thesis is **complementarity** — AI and humans each have intuition blind spots; the real risk isn't one surpassing the other, but their blind spots overlapping undetected.
 
