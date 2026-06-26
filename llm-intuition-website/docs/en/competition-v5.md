@@ -6,7 +6,7 @@ prev: false
 
 > From "whose model is strongest" to "who controls which link in the value chain."
 
-**v5 upgrade**: Introduces a four-layer value chain model and deep analysis of China's Agent ecosystem. v4 is our initial prior (2026-05-19). v5 (2026-06-09) → baseline reassessment (2026-06-11) → scan #5 (2026-06-26).
+**v5 upgrade**: Introduces a four-layer value chain model and deep China Agent ecosystem analysis. v4 is the initial prior (2026-05-19). v5 is the first formal posterior (2026-06-09). v5 baseline reassessment (2026-06-11) based on Kimi's 42-signal full scan to correct systematic underestimation.
 
 > 📖 **Reading guide**: 3 min → "Four-Layer Value Chain" + "Probability Changes" | 10 min → 8 Scenario Cards | Full report → [v5 complete report](https://github.com/co-cognition-lab/llm-intuition/blob/main/competition/llm_competition_v5_final.md) (~620 lines, with full evidence chains and source tracing)
 
@@ -82,55 +82,39 @@ Smartphone manufacturers hold "zero-layer entry points" (system-level voice assi
 
 > These 8 scenarios originate from the [v4 analytical framework](https://co-cognition.org/en/competition) (2026-05-19)—our initial prior. v5 reinterprets each scenario as "stress distribution across the four-layer value chain," updating posterior probabilities based on new observations.
 
-### Scenario ① Stable Coexistence (28% → **26%** ↓2pp)
+### Scenario ① Stable Coexistence (35%, unchanged) → **Baseline reassessment: 28%** (-7pp)
 
-Gradual competition within existing frameworks. No structural mutation signals in any layer.
+Gradual competition within existing frameworks. Full-signal scan reveals multi-directional structural pressures compressing the "business as usual" narrative space.
 
-### Scenario ② Intelligence Democratization (30% → **32%** ↑2pp)
+### Scenario ② Intelligence Democratization (30% → 32% → **Baseline reassessment: 30%**)
 
-Open-source models catch up. API costs approach zero. Agent development barriers collapse.
-
-**Drivers**: Perceptual convergence (L4) + DeepSeek price anchoring (L4) + MCP/A2A interoperability (L4)
+Open-source models catch up. A countervailing force: open-source diffusion is real (GLM-5.1 MIT, DeepSeek price cuts), but entry concentration (ChatGPT 900M weekly active, Doubao/Yuanbao duopoly) means open capability ≠ decentralized market.
 
 **Value chain stress**: Model ████████░░ → Platform ████░░░░░░ → Terminal ████░░░░░░
 
-### Scenario ③ Agent Symbiosis (18% → **16%** ↓2pp)
+### Scenario ③ Agent Symbiosis (20% → 22% → **Baseline reassessment: 18%**)
 
-Agents embed deeply in workflows, but humans retain irreducible social and moral judgment.
+Agents embed in workflows, humans retain judgment. Recent deployment data (Q1 78,557 tech layoffs, 47.9% AI-attributed) points to replacement, not symbiosis. Infrastructure for symbiosis is being built, but near-term deployment tilts toward replacement.
 
-**Drivers**: Protocol standardization making "human-first" a protocol-compatible default rather than custom development (L3→L4) + degradation warnings creating demand for symbiosis (L1)
+### Scenario ③B Degradation Exposure (18% → 16% → **Baseline reassessment: 22%**)
 
-**Value chain stress**: Terminal ████████░░ (behavior shift) → Platform ██████░░░░ (governance tools)
+Agent disaster exposes eroded human judgment → regulatory hard brake. Upgrade reflects degradation evidence upgrading from "narrative signals" to "quantified trend + CEO-level confirmation"—Q1 78,557 tech layoffs (47.9% AI-attributed, L4), three CEOs publicly confirming AI-driven structural layoffs.
 
-### Scenario ③B Degradation Exposure (22% → **20%** ↓2pp)
+### Scenario ④ Intelligence Leap (10%, unchanged) → **Baseline reassessment: 7%** (-3pp)
 
-Agent disaster exposes eroded human judgment → public panic → regulatory hard brake.
+Training paradigm breakthrough. Two months elapsed since v4 with no non-Transformer flagship model. Probability naturally contracting.
 
-**Drivers**: Degradation signals accumulating (L4) + governance infrastructure built but intercepts agent actions, not cognitive outsourcing (L1)
+### Scenario ⑤ Agent Oligopoly (8% → 12% → **Baseline reassessment: 20%**)
 
-**Value chain stress**: Terminal ██████████ (degradation arena) → Platform ██████░░░░ (can governance intercept?)
+Super-apps control Agent distribution. Upgrade reflects global entry concentration far exceeding prior assessment—ChatGPT 900M WAU/50M paid + Doubao 315M MAU/Yuanbao embedded in WeChat + DeepSeek $7B funding concentration + Meta Llama 4 Behemoth still absent 1+ year after announcement. Oligopoly is not "possibly forming"—it has formed and is deepening.
 
-### Scenario ④ Intelligence Leap (7% → **8%** ↑1pp)
+### Scenario ⑥ Geotech Decoupling (5%, unchanged) → **Baseline reassessment: 10%** (+5pp)
 
-Training paradigm breakthrough enables discontinuous capability jump. No new signals.
+China-US AI ecosystems split. Upgrade reflects decoupling faster at engineering layer than policy layer—DeepSeek V4 full-link abandoning NVIDIA for Huawei Ascend (L3, pending confirmation), Huawei 950PR mass production/1.6M chip target, GLM-5.1 zero-NVIDIA training confirmed.
 
-### Scenario ⑤ Agent Oligopoly (20% → **26%** ↑6pp)
+### Scenario ⑦ Price War Margin Squeeze (10%→12%→15% → **Baseline reassessment: 20%**)
 
-Super-app entry points control Agent distribution. Upgrade reflects oligopolization accelerating across five dimensions over the past 15 days: capital (DeepSeek $70B+ sovereign funding), talent (Transformer inventor Shazeer joins OpenAI), infrastructure (SpaceX signs $80B compute contract), product (SpaceX acquires Cursor), state alignment (OpenAI/Anthropic compete for government "protected status"). Oligopolization (26%) now ties with Stable Coexistence (26%) as the highest-probability scenario.
-
-**Value chain stress**: Terminal ██████████ (entry concentration) → Platform ████████░░ (ecosystem lock-in) → Model ████░░░░░░ (closed-source giants iterate via entry feedback)
-
-### Scenario ⑥ Geotech Decoupling (10% → **18%** ↑8pp)
-
-China-US AI ecosystems split into independent systems. Upgrade reflects decoupling escalating from engineering to institutional layers: first US nationality-based access control on commercial AI APIs (Fable 5), with mandatory data retention and biometric verification. DeepSeek funding included state AI industry fund participation. OpenAI launched competing products vying for government security sector positioning.
-
-### Scenario ⑦ Price War Margin Squeeze (20% → **22%** ↑2pp)
-
-API pricing anchored near cost. Model-layer profits evaporate.
-
-**Drivers**: DeepSeek ¥0.02/M redefines unit economics (L4) + perceptual convergence compresses differentiation (L4) + API commoditization inflection signals (L3)
-
-**Value chain stress**: Model ██████████ (price anchoring) → Platform ████░░░░░░ (benefits platforms) → Compute ██░░░░░░░░ (drives custom chip investment)
+API pricing anchored near cost. Upgrade reflects price war evolving from DeepSeek's unilateral move to industry equilibrium—Tencent Cloud matching ¥0.02/M + DeepSeek $7B war chest = model API commoditization is now market structure, not temporary strategy.
 
 ### Scenario ⑧ Unknown Unknowns (2%, unchanged)
 
@@ -144,9 +128,9 @@ v4 introduced the "hollowing-out window" metaphor—Agent capability rising whil
 |------|:--:|------|
 | Agent Capability | ↑ Rising | Perceptual nearing frontier (L4); super-apps bring Agents to 1B+ users |
 | Human Capability | ↓ Declining | Silent (L1); stronger entry = deeper degradation—1.2B WeChat users outsourcing social judgment |
-| Governance Capability | ↑ Rising | Latest start, fastest acceleration (L4); but cannot prevent cognitive outsourcing (L1) |
+| Governance Capability | ↑ Rising | Latest start, fastest acceleration (L4). But the Fable 5 nationality lock (Jun 2026) reveals the actual direction is sovereign control (nationality verification, forced data retention) rather than user-protective symbiosis—governance is accelerating, but its direction is shifting |
 
-**Core uncertainty**: The relative speed of the three threads. Current data is insufficient to determine whether governance will cover critical systems before degradation is exposed.
+**Core uncertainty**: The relative speed of the three threads. New uncertainty: the governance thread's directional shift—sovereign governance can prevent cross-border Agent incidents, but cannot prevent the silent accumulation of degradation itself.
 
 ---
 
@@ -164,5 +148,3 @@ Both versions coexist. v4 is not replaced by v5—readers can track how our judg
 
 *Analysis based on public data as of April–June 2026. Valid for approximately 4–6 weeks. All probabilities are directional judgments, not investment advice. Data gaps are explicitly marked.*
 *CC BY 4.0 · Co-Cognition Lab · Humble, traceable, open source*
-
-> 📊 [Baseline Reassessment Methodology](https://github.com/co-cognition-lab/llm-intuition/blob/main/competition/P4_baseline_reassessment_2026-06-11.md)
