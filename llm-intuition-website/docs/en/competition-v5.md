@@ -6,7 +6,7 @@ prev: false
 
 > From "whose model is strongest" to "who controls which link in the value chain."
 
-**v5 upgrade**: Introduces a four-layer value chain model and deep analysis of China's Agent ecosystem. v4 is our initial prior (2026-05-19). v5 is the baseline reassessment (2026-06-11).
+**v5 upgrade**: Introduces a four-layer value chain model and deep analysis of China's Agent ecosystem. v4 is our initial prior (2026-05-19). v5 (2026-06-09) → baseline reassessment (2026-06-11) → scan #5 (2026-06-26).
 
 > 📖 **Reading guide**: 3 min → "Four-Layer Value Chain" + "Probability Changes" | 10 min → 8 Scenario Cards | Full report → [v5 complete report](https://github.com/co-cognition-lab/llm-intuition/blob/main/competition/llm_competition_v5_final.md) (~620 lines, with full evidence chains and source tracing)
 
@@ -82,11 +82,11 @@ Smartphone manufacturers hold "zero-layer entry points" (system-level voice assi
 
 > These 8 scenarios originate from the [v4 analytical framework](https://co-cognition.org/en/competition) (2026-05-19)—our initial prior. v5 reinterprets each scenario as "stress distribution across the four-layer value chain," updating posterior probabilities based on new observations.
 
-### Scenario ① Stable Coexistence (35% → **28%** ↓7pp)
+### Scenario ① Stable Coexistence (28% → **26%** ↓2pp)
 
 Gradual competition within existing frameworks. No structural mutation signals in any layer.
 
-### Scenario ② Intelligence Democratization (32% → **30%** ↓2pp)
+### Scenario ② Intelligence Democratization (30% → **32%** ↑2pp)
 
 Open-source models catch up. API costs approach zero. Agent development barriers collapse.
 
@@ -94,7 +94,7 @@ Open-source models catch up. API costs approach zero. Agent development barriers
 
 **Value chain stress**: Model ████████░░ → Platform ████░░░░░░ → Terminal ████░░░░░░
 
-### Scenario ③ Agent Symbiosis (22% → **18%** ↓4pp)
+### Scenario ③ Agent Symbiosis (18% → **16%** ↓2pp)
 
 Agents embed deeply in workflows, but humans retain irreducible social and moral judgment.
 
@@ -102,7 +102,7 @@ Agents embed deeply in workflows, but humans retain irreducible social and moral
 
 **Value chain stress**: Terminal ████████░░ (behavior shift) → Platform ██████░░░░ (governance tools)
 
-### Scenario ③B Degradation Exposure (16% → **22%** ↑6pp)
+### Scenario ③B Degradation Exposure (22% → **20%** ↓2pp)
 
 Agent disaster exposes eroded human judgment → public panic → regulatory hard brake.
 
@@ -110,23 +110,21 @@ Agent disaster exposes eroded human judgment → public panic → regulatory har
 
 **Value chain stress**: Terminal ██████████ (degradation arena) → Platform ██████░░░░ (can governance intercept?)
 
-### Scenario ④ Intelligence Leap (10% → **7%** ↓3pp)
+### Scenario ④ Intelligence Leap (7% → **8%** ↑1pp)
 
 Training paradigm breakthrough enables discontinuous capability jump. No new signals.
 
-### Scenario ⑤ Agent Oligopoly (12% → **20%** ↑8pp)
+### Scenario ⑤ Agent Oligopoly (20% → **26%** ↑6pp)
 
-A few super-apps control Agent distribution and user relationships through entry monopolies.
-
-**Drivers**: Doubao 2.3B + Yuanbao 114M MAU duopoly (L4) + Coze 3.0 "develop=distribute" closed loop (L3) + smartphone-maker cooperation obstacles are commercial, not technical (L1)
+Super-app entry points control Agent distribution. Upgrade reflects oligopolization accelerating across five dimensions over the past 15 days: capital (DeepSeek $70B+ sovereign funding), talent (Transformer inventor Shazeer joins OpenAI), infrastructure (SpaceX signs $80B compute contract), product (SpaceX acquires Cursor), state alignment (OpenAI/Anthropic compete for government "protected status"). Oligopolization (26%) now ties with Stable Coexistence (26%) as the highest-probability scenario.
 
 **Value chain stress**: Terminal ██████████ (entry concentration) → Platform ████████░░ (ecosystem lock-in) → Model ████░░░░░░ (closed-source giants iterate via entry feedback)
 
-### Scenario ⑥ Geotech Decoupling (5% → **10%** ↑5pp)
+### Scenario ⑥ Geotech Decoupling (10% → **18%** ↑8pp)
 
-China-US AI ecosystems split into two independent systems. Training-layer decoupling is accelerating, but "full decoupling" requires simultaneous protocol-layer and market-layer fragmentation—a far higher threshold.
+China-US AI ecosystems split into independent systems. Upgrade reflects decoupling escalating from engineering to institutional layers: first US nationality-based access control on commercial AI APIs (Fable 5), with mandatory data retention and biometric verification. DeepSeek funding included state AI industry fund participation. OpenAI launched competing products vying for government security sector positioning.
 
-### Scenario ⑦ Price War Margin Squeeze (15% → **20%** ↑5pp)
+### Scenario ⑦ Price War Margin Squeeze (20% → **22%** ↑2pp)
 
 API pricing anchored near cost. Model-layer profits evaporate.
 
