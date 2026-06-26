@@ -80,10 +80,10 @@ Built on Co-Cognition Methodology · [Learn more →](/en/methodology)
     <span class="card-link">Coming Soon</span>
   </a>
   <a href="/en/crisis/">
-    <span class="card-icon">🤝</span>
-    <span class="card-title">Crisis Cognition Collaboration</span>
-    <span class="card-details">Human-AI collaborative cognition under high-stakes, time-pressured conditions—research and protocols in active development.</span>
-    <span class="card-link">Learn More →</span>
+    <span class="card-icon">⚕️</span>
+    <span class="card-title">Crisis Cognitive Resilience</span>
+    <span class="card-details">Cross-domain cognitive degradation diagnosis + preloading strategies — 14-case bidirectional anchoring</span>
+    <span class="card-link">Explore →</span>
   </a>
 </div>
 
