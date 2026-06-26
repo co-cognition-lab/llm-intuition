@@ -80,10 +80,10 @@ Co-Cognition Lab 是一个开放的认知安全研究协作体。我们不关注
     <span class="card-link">即将上线</span>
   </a>
   <a href="/zh/crisis/">
-    <span class="card-icon">🤝</span>
-    <span class="card-title">危机认知协作</span>
-    <span class="card-details">探索危机情境下的人类-AI 协作认知机制——项目规划中，启动后更新。</span>
-    <span class="card-link">了解项目 →</span>
+    <span class="card-icon">⚕️</span>
+    <span class="card-title">危机认知韧性</span>
+    <span class="card-details">跨域认知退化诊断框架 + 认知预载策略——14案例双向锚定</span>
+    <span class="card-link">探索框架 →</span>
   </a>
 </div>
 
