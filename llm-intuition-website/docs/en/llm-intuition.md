@@ -1,6 +1,6 @@
 # LLMs and Human Intuition: Evolutionary Pathways and Complementary Spaces
 
-> **v2.0** | June 2026 | [arXiv Preprint](#) | [PDF Download](https://github.com/co-cognition-lab/llm-intuition/blob/main/arxiv/main_v2_en.pdf) | [GitHub](https://github.com/co-cognition-lab/llm-intuition)
+> **v2.0** | June 2026 | [arXiv Preprint](#) | [PDF Download](https://github.com/co-cognition-lab/llm-intuition/blob/main/arxiv/main_v2_en.pdf) | [GitHub](https://github.com/co-cognition-lab/llm-intuition) | [OSF](https://doi.org/10.17605/OSF.IO/XSY39)
 
 ---
 
@@ -77,7 +77,13 @@ Of 41 evidence-level annotations across the full paper, L5 (confirmed by ≥2 in
 
 ## Cross-Validation
 
-Rafiee & Sutton (2026, arXiv:2605.24238) independently identified four structural deficiencies in LLMs from the phenomenological tradition (experience, action-perception inseparability, autonomy, embodiment), converging on the same judgment as this paper's predictive processing approach. The division of labor: Rafiee & Sutton provide the diagnosis; this paper provides the systematic mapping and intervention framework.
+Three independent theoretical traditions converge on the same structural judgment:
+
+- **Predictive Processing** (this paper): LLMs lack endogenous cost-driven signal prioritization — precision-weighting is exogenous
+- **Phenomenology** (Rafiee & Sutton, 2026, arXiv:2605.24238): LLMs lack four Enactive AI dimensions — experience, action-perception inseparability, autonomy, embodiment
+- **Mathematics** (Klindt, LeCun & Balestriero, 2026, arXiv:2605.26379): non-Gaussian latent variables make linear identifiability impossible — World Models cannot recover true structure in non-Gaussian domains
+
+The division of labor: JEPA provides the formal proof, Rafiee & Sutton provide the philosophical diagnosis, and this paper provides the systematic mapping and intervention framework. See Appendix D of the full paper for a detailed cross-mapping.
 
 ---
 
