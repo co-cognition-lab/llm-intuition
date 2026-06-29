@@ -91,7 +91,7 @@ The division of labor: JEPA provides the formal proof, Rafiee & Sutton provide t
 
 - 📄 Full Paper PDF: [Chinese](https://github.com/co-cognition-lab/llm-intuition/blob/main/arxiv/main_v2.pdf) | [English](https://github.com/co-cognition-lab/llm-intuition/blob/main/arxiv/main_v2_en.pdf)
 - 💻 GitHub: [co-cognition-lab/llm-intuition](https://github.com/co-cognition-lab/llm-intuition)
-- 📊 OSF: [10.17605/OSF.IO/XSY39](https://doi.org/10.17605/OSF.IO/XSY39)
+- 📊 OSF: [10.17605/OSF.IO/5FSCZ](https://doi.org/10.17605/OSF.IO/5FSCZ) (v2.0 snapshot) | Project: [10.17605/OSF.IO/XSY39](https://doi.org/10.17605/OSF.IO/XSY39)
 
 ---
 
