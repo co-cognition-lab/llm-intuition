@@ -91,7 +91,7 @@
 
 - 📄 完整论文 PDF：[中文版](https://github.com/co-cognition-lab/llm-intuition/blob/main/arxiv/main_v2.pdf) | [English](https://github.com/co-cognition-lab/llm-intuition/blob/main/arxiv/main_v2_en.pdf)
 - 💻 GitHub：[co-cognition-lab/llm-intuition](https://github.com/co-cognition-lab/llm-intuition)
-- 📊 OSF：[10.17605/OSF.IO/XSY39](https://doi.org/10.17605/OSF.IO/XSY39)
+- 📊 OSF：[10.17605/OSF.IO/5FSCZ](https://doi.org/10.17605/OSF.IO/5FSCZ)（v2.0 冻结快照）| 项目根：[10.17605/OSF.IO/XSY39](https://doi.org/10.17605/OSF.IO/XSY39)
 
 ---
 
