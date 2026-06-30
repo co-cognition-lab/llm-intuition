@@ -90,3 +90,9 @@ This guide you're reading was written using this methodology — Step 0 confirme
 3. **Fatal-level self-check**: Q2 (did I over-trust LLM in unfamiliar territory?) + Q6 (did LLM repackage my judgment as its own output?) — 2 minutes
 
 **Stop rule**: Two consecutive rounds with no new insight = you're done.
+
+---
+
+## Further Reading
+
+→ [Rule Pool Governance](/en/methodology/rule-pool-governance/): How the Lab's 11 document rule types evolve from static documents to a traceable rule evolution system (v2.2, based on JERP)
