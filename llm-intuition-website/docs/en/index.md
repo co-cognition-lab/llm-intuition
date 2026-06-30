@@ -31,6 +31,7 @@ How do we ensure this research isn't just "AI inventing things for us"? We don't
 
 ### LLM Cognitive Security · A complete research system [→ Full Architecture](/en/cognitive-security)
 
+
 <div class="card-grid">
   <a href="/en/experiments/llm-hook">
     <span class="card-icon">💉</span>
