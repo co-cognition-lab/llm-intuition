@@ -27,9 +27,9 @@ We start from a single question: when humans and AI each have their own cognitiv
 
 From the irreplaceability of human intuition, to the discovery of LLMs' cognitive vulnerability in web reading and execution, to a publicly verifiable classification framework (ITEC), to ongoing tracking of industry competition—each step is a Bayesian update: judgments revised on new evidence, uncertainties labeled honestly. These are not independent projects. They are one research system unfolding.
 
-### LLM Cognitive Security · A complete research system [→ Full Architecture](/en/cognitive-security)
+How do we ensure this research isn't just "AI inventing things for us"? We don't have a perfect answer—but we have a methodology under active iteration. Three-source cross-validation (same question → two different LLM models + human audit, comparing differences), A/B adversarial briefs (rewriting a task description as a challenge format to send to another LLM)—every mechanism comes from real mistakes in real projects. We're currently working on integrating the Lab's 11 documented rule types (evidence grading, dual-source verification, terminology consistency…) into a rules-pool system (based on JERP ideas)—making rules not just passive documentation, but dynamic entries with usage data. Currently at v2.2 proposal stage, weight parameters labeled L1 (theoretical deduction). [Learn more →](/en/methodology)
 
-Built on Co-Cognition Methodology · [Learn more →](/en/methodology)
+### LLM Cognitive Security · A complete research system [→ Full Architecture](/en/cognitive-security)
 
 <div class="card-grid">
   <a href="/en/experiments/llm-hook">
