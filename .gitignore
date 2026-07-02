@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# LaTeX build artifacts (arxiv/)
+arxiv/*.aux
+arxiv/*.bbl
+arxiv/*.bcf
+arxiv/*.blg
+arxiv/*.log
+arxiv/*.out
+arxiv/*.run.xml
+arxiv/*.synctex.gz
+arxiv/*.toc
+arxiv/texput.log
